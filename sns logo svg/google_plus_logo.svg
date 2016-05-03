@@ -26,8 +26,8 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="153.99861"
+     inkscape:zoom="0.5"
+     inkscape:cx="-52.50139"
      inkscape:cy="234.28571"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
@@ -46,7 +46,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -56,7 +56,7 @@
      inkscape:label="google+">
     <g
        id="g4885"
-       transform="matrix(12.538965,0,0,12.538965,-3547.7346,-5679.9298)">
+       transform="matrix(15.046758,0,0,15.046758,-4307.5958,-6866.1157)">
       <path
          sketch:type="MSShapeGroup"
          id="Shape"
