@@ -2116,6 +2116,7 @@ img.evernote-btn-img-mini {
 
 /*
 *	他のliのfont-sizeにフォローボタンのliが侵食されるのを防ぐため
+*	注).snsp li span にfont-sizeの設定が必要
  */
 #footer-widget .snsp li {
     font-size: unset;

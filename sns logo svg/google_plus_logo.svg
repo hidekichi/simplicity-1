@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="500"
+   height="500"
+   viewBox="0 0 499.99998 499.99998"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r"
+   sodipodi:docname="google_plus_logo.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#f4f4f4"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="153.99861"
+     inkscape:cy="234.28571"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer2"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1028"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="google+">
+    <g
+       id="g4885"
+       transform="matrix(12.538965,0,0,12.538965,-3547.7346,-5679.9298)">
+      <path
+         sketch:type="MSShapeGroup"
+         id="Shape"
+         d="m 298.99996,471.99994 0,2.4 3.97,0 c -0.16,1.03 -1.2,3.02 -3.97,3.02 -2.39,0 -4.33999,-1.98 -4.33999,-4.42 0,-2.44 1.94999,-4.42 4.33999,-4.42 1.36,0 2.27,0.58 2.79,1.08 l 1.9,-1.83 c -1.22,-1.14 -2.8,-1.83 -4.69,-1.83 -3.87,0 -6.99999,3.13 -6.99999,7 0,3.87 3.12999,7 6.99999,7 4.04,0 6.72,-2.84 6.72,-6.84 0,-0.46 -0.05,-0.81 -0.11,-1.16 l -6.61,0 0,0 z"
+         style="fill:#ffffff"
+         inkscape:connector-curvature="0" />
+      <path
+         sketch:type="MSShapeGroup"
+         id="Shape-Copy"
+         d="m 313.99996,471.99994 -2,0 0,-2 -2,0 0,2 -2,0 0,2 2,0 0,2 2,0 0,-2 2,0"
+         style="fill:#ffffff"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg4190"
+   version="1.1"
+   inkscape:version="0.91 r"
+   width="500"
+   height="500"
+   viewBox="0 0 500 500"
+   sodipodi:docname="facebook_logo.svg">
+  <metadata
+     id="metadata4196">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4194" />
+  <sodipodi:namedview
+     pagecolor="#f0f0f0"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1028"
+     id="namedview4192"
+     showgrid="false"
+     showguides="false"
+     inkscape:guide-bbox="true"
+     inkscape:zoom="1"
+     inkscape:cx="207.11793"
+     inkscape:cy="190.17527"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer4">
+    <sodipodi:guide
+       position="318.3294,101.38725"
+       orientation="0,1"
+       id="guide4206" />
+    <sodipodi:guide
+       position="155.40142,273.17001"
+       orientation="0,1"
+       id="guide4210" />
+    <sodipodi:guide
+       position="84.563164,188.60685"
+       orientation="1,0"
+       id="guide4212" />
+    <sodipodi:guide
+       position="128.39433,181.52302"
+       orientation="1,0"
+       id="guide4214" />
+    <sodipodi:guide
+       position="180.63754,234.65171"
+       orientation="0,1"
+       id="guide4216" />
+    <sodipodi:guide
+       position="178.86659,201.44628"
+       orientation="0,1"
+       id="guide4218" />
+    <sodipodi:guide
+       position="175.76741,170.01181"
+       orientation="0,1"
+       id="guide4220" />
+    <sodipodi:guide
+       position="181.52302,133.7072"
+       orientation="0,1"
+       id="guide4222" />
+    <sodipodi:guide
+       position="167.35537,234.65171"
+       orientation="1,0"
+       id="guide4224" />
+    <sodipodi:guide
+       position="173.99646,154.95868"
+       orientation="1,0"
+       id="guide4226" />
+    <sodipodi:guide
+       position="211.18654,195.24793"
+       orientation="1,0"
+       id="guide4228" />
+    <sodipodi:guide
+       position="218.71311,139.02007"
+       orientation="1,0"
+       id="guide4230" />
+  </sodipodi:namedview>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="facebook">
+    <path
+       d="m 282.8643,462.24153 0,-193.62556 64.99234,0 9.73047,-75.46067 -74.72281,0 0,-48.1783 c 0,-21.84763 6.06609,-36.73555 37.397,-36.73555 l 39.95984,-0.0187 0,-67.491225 c -6.91475,-0.91797 -30.63212,-2.97309 -58.22746,-2.97309 -57.61296,0 -97.05575,35.16565 -97.05575,99.747465 l 0,55.64943 -65.15907,0 0,75.46067 65.15907,0 0,193.62557 77.92637,0"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path5148"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>
