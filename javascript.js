@@ -175,7 +175,7 @@ setInterval(function() {
 (function($) {
     $(function() {
         $('#mobile-menu-toggle').click(function() {
-            var header_menu = $('#navi ul');
+            var header_menu = $('#navi').find("ul");
             if (header_menu.css('display') === 'none') {
                 header_menu.slideDown();
             } else {
@@ -407,7 +407,7 @@ jQuery(function() {
 (function($) {
     $(window).resize(function() {
         if ($(window).width() > 1110) {
-            $('#navi-in ul').removeAttr('style');
+            $('#navi-in').find("ul").removeAttr('style');
         }
     });
 })(jQuery);
