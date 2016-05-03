@@ -36,9 +36,9 @@
 /////////////////////////////////
 //スクロール追従
 /////////////////////////////////
-var wrapperTop;//追従エリアのトップ位置を格納（追従開始位置
-var wrapperHeight;//追従エリアの高さを格納
-var sidebarHeight;//サイドバーの高さを格納
+var wrapperTop;     //追従エリアのトップ位置を格納（追従開始位置
+var wrapperHeight;  //追従エリアの高さを格納
+var sidebarHeight;  //サイドバーの高さを格納
 
 //非同期ブログパーツがあっても追従開始位置がずれないように修正（無理やり）
 //スマートな良い方法があれば、ご教授お願いします。
@@ -548,4 +548,3 @@ jQuery(function(){
 // (function($){
 //   $('table:not(.table-wrap table)').wrap('<div class="table-wrap"></div>');
 // })(jQuery);
-
