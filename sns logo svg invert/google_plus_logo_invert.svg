@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="500"
+   height="500"
+   viewBox="0 0 499.99998 499.99998"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r"
+   sodipodi:docname="google_plus_logo_invert.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#f4f4f4"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.0035545"
+     inkscape:cx="255"
+     inkscape:cy="182"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer2"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1028"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="google+">
+    <path
+       style="opacity:0.97000002;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.025;stroke-miterlimit:4;stroke-dasharray:0.1, 0.02500000000000000;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 0 0 L 0 500 L 500 500 L 500 0 L 0 0 z M 191.38477 145.67188 C 219.82314 145.67188 243.59608 156.05568 261.95312 173.20898 L 233.36523 200.74414 C 225.54092 193.22076 211.84836 184.49414 191.38477 184.49414 C 155.423 184.49414 126.08203 214.28591 126.08203 251 C 126.08203 287.71409 155.423 317.50586 191.38477 317.50586 C 233.06429 317.50586 248.71166 287.56262 251.11914 272.06445 L 191.38477 272.06445 L 191.38477 235.95312 L 290.84375 235.95312 C 291.74656 241.2195 292.49805 246.48669 292.49805 253.4082 C 292.49805 313.59525 252.17368 356.32812 191.38477 356.32812 C 133.1538 356.32812 86.056641 309.23097 86.056641 251 C 86.056641 192.76903 133.1538 145.67188 191.38477 145.67188 z M 356.89844 205.85938 L 386.99219 205.85938 L 386.99219 235.95312 L 417.08594 235.95312 L 417.08594 266.04688 L 386.99219 266.04688 L 386.99219 296.14062 L 356.89844 296.14062 L 356.89844 266.04688 L 326.80469 266.04688 L 326.80469 235.95312 L 356.89844 235.95312 L 356.89844 205.85938 z "
+       id="rect13183" />
+    <g
+       id="g4885"
+       transform="matrix(15.046758,0,0,15.046758,-4307.5958,-6866.1157)">
+      <g
+         id="g13185" />
+    </g>
+  </g>
+</svg>

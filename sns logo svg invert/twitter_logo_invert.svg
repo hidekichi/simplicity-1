@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg4190"
+   version="1.1"
+   inkscape:version="0.91 r"
+   width="500"
+   height="500"
+   viewBox="0 0 500 500"
+   sodipodi:docname="twitter_logo_invert.svg">
+  <metadata
+     id="metadata4196">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4194" />
+  <sodipodi:namedview
+     pagecolor="#f0f0f0"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1028"
+     id="namedview4192"
+     showgrid="false"
+     showguides="false"
+     inkscape:guide-bbox="true"
+     inkscape:zoom="1"
+     inkscape:cx="212.11793"
+     inkscape:cy="190.17527"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer6">
+    <sodipodi:guide
+       position="318.3294,101.38725"
+       orientation="0,1"
+       id="guide4206" />
+    <sodipodi:guide
+       position="155.40142,273.17001"
+       orientation="0,1"
+       id="guide4210" />
+    <sodipodi:guide
+       position="84.563164,188.60685"
+       orientation="1,0"
+       id="guide4212" />
+    <sodipodi:guide
+       position="128.39433,181.52302"
+       orientation="1,0"
+       id="guide4214" />
+    <sodipodi:guide
+       position="180.63754,234.65171"
+       orientation="0,1"
+       id="guide4216" />
+    <sodipodi:guide
+       position="178.86659,201.44628"
+       orientation="0,1"
+       id="guide4218" />
+    <sodipodi:guide
+       position="175.76741,170.01181"
+       orientation="0,1"
+       id="guide4220" />
+    <sodipodi:guide
+       position="181.52302,133.7072"
+       orientation="0,1"
+       id="guide4222" />
+    <sodipodi:guide
+       position="167.35537,234.65171"
+       orientation="1,0"
+       id="guide4224" />
+    <sodipodi:guide
+       position="173.99646,154.95868"
+       orientation="1,0"
+       id="guide4226" />
+    <sodipodi:guide
+       position="211.18654,195.24793"
+       orientation="1,0"
+       id="guide4228" />
+    <sodipodi:guide
+       position="218.71311,139.02007"
+       orientation="1,0"
+       id="guide4230" />
+  </sodipodi:namedview>
+  <g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="twitter">
+    <path
+       style="opacity:0.97000002;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.025;stroke-miterlimit:4;stroke-dasharray:0.1, 0.02500000000000000;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 0 0 L 0 500 L 500 500 L 500 0 L 0 0 z M 305.91797 131.86719 C 323.07275 131.86719 338.57436 139.111 349.45508 150.70312 C 363.0411 148.02761 375.80601 143.06406 387.33008 136.22852 C 382.87656 150.15695 373.41877 161.84639 361.10352 169.22852 C 373.16887 167.78655 384.66458 164.57978 395.36133 159.83594 C 387.36456 171.79708 377.25236 182.30351 365.59961 190.71289 C 365.71448 193.27037 365.77148 195.84153 365.77148 198.42773 C 365.77148 277.24575 305.7796 368.13281 196.07031 368.13281 C 162.38707 368.13281 131.03473 358.25852 104.63867 341.33594 C 109.30476 341.88667 114.05278 342.16797 118.86719 342.16797 C 146.81136 342.16797 172.5302 332.63152 192.94336 316.63477 C 166.84303 316.15337 144.81464 298.90973 137.22461 275.21289 C 140.86634 275.90953 144.6036 276.2832 148.44727 276.2832 C 153.88635 276.2832 159.15516 275.55427 164.16016 274.19141 C 136.87446 268.71234 116.31445 244.60602 116.31445 215.70703 C 116.31445 215.455 116.31631 215.20587 116.32031 214.95703 C 124.36229 219.42438 133.55892 222.10657 143.33594 222.41602 C 127.33175 211.72033 116.80273 193.4642 116.80273 172.77148 C 116.80273 161.83971 119.74274 151.59437 124.87695 142.78516 C 154.29541 178.87061 198.24533 202.61622 247.81641 205.10352 C 246.7998 200.73826 246.27148 196.18644 246.27148 191.51172 C 246.27148 158.57287 272.97699 131.86719 305.91797 131.86719 z "
+       id="rect4666" />
+  </g>
+</svg>

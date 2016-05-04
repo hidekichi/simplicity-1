@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="500"
+   height="500"
+   viewBox="0 0 499.99998 499.99998"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r"
+   sodipodi:docname="pocket_logo_invert.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#f2f2f2"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="234.21429"
+     inkscape:cy="273.78571"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1316"
+     inkscape:window-height="1028"
+     inkscape:window-x="602"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="pocket"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-552.36209)">
+    <path
+       style="opacity:0.97000002;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.025;stroke-miterlimit:4;stroke-dasharray:0.1, 0.02500000000000000;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 0 0 L 0 500 L 500 500 L 500 0 L 0 0 z M 121.3457 108.625 L 377.87305 108.625 C 394.99645 109.6015 405.93555 119.36684 405.93555 136.68555 L 405.93555 240.01367 C 405.93555 320.22736 330.93043 388.78715 249.74023 389.37305 C 177.53454 389.89385 94.064453 323.93876 94.064453 240.01367 L 94.064453 136.68555 C 94.064453 119.43194 104.35321 109.7324 121.3457 108.625 z M 175.03711 189.54688 C 157.47163 189.93107 149.21544 213.72973 158.32812 222.30273 L 239.97461 300.23828 C 242.6437 302.77788 256.90121 302.77788 259.57031 300.23828 L 341.2168 222.30469 C 352.7409 212.92889 340.50106 180.89519 312.43945 192.67969 L 249.74023 252.18945 L 187.10547 192.67969 C 182.72994 190.39676 178.68277 189.46714 175.03711 189.54688 z "
+       transform="translate(0,552.36209)"
+       id="rect19197" />
+  </g>
+</svg>

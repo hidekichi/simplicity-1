@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg4190"
+   version="1.1"
+   inkscape:version="0.91 r"
+   width="500"
+   height="500"
+   viewBox="0 0 500 500"
+   sodipodi:docname="facebook_logo_invert.svg">
+  <metadata
+     id="metadata4196">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4194" />
+  <sodipodi:namedview
+     pagecolor="#f0f0f0"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1028"
+     id="namedview4192"
+     showgrid="false"
+     showguides="false"
+     inkscape:guide-bbox="true"
+     inkscape:zoom="1"
+     inkscape:cx="195.11793"
+     inkscape:cy="190.17527"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer4">
+    <sodipodi:guide
+       position="318.3294,101.38725"
+       orientation="0,1"
+       id="guide4206" />
+    <sodipodi:guide
+       position="155.40142,273.17001"
+       orientation="0,1"
+       id="guide4210" />
+    <sodipodi:guide
+       position="84.563164,188.60685"
+       orientation="1,0"
+       id="guide4212" />
+    <sodipodi:guide
+       position="128.39433,181.52302"
+       orientation="1,0"
+       id="guide4214" />
+    <sodipodi:guide
+       position="180.63754,234.65171"
+       orientation="0,1"
+       id="guide4216" />
+    <sodipodi:guide
+       position="178.86659,201.44628"
+       orientation="0,1"
+       id="guide4218" />
+    <sodipodi:guide
+       position="175.76741,170.01181"
+       orientation="0,1"
+       id="guide4220" />
+    <sodipodi:guide
+       position="181.52302,133.7072"
+       orientation="0,1"
+       id="guide4222" />
+    <sodipodi:guide
+       position="167.35537,234.65171"
+       orientation="1,0"
+       id="guide4224" />
+    <sodipodi:guide
+       position="173.99646,154.95868"
+       orientation="1,0"
+       id="guide4226" />
+    <sodipodi:guide
+       position="211.18654,195.24793"
+       orientation="1,0"
+       id="guide4228" />
+    <sodipodi:guide
+       position="218.71311,139.02007"
+       orientation="1,0"
+       id="guide4230" />
+  </sodipodi:namedview>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="facebook">
+    <path
+       style="opacity:0.97000002;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.025;stroke-miterlimit:4;stroke-dasharray:0.1, 0.02500000000000000;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 0 0 L 0 500 L 500 500 L 500 0 L 0 0 z M 286.39648 101.43164 C 305.71321 101.43164 322.31397 102.86914 327.1543 103.51172 L 327.1543 150.75586 L 299.18359 150.76953 C 277.25195 150.76953 273.00586 161.19103 273.00586 176.48438 L 273.00586 210.20898 L 325.31055 210.20898 L 318.5 263.03125 L 273.00586 263.03125 L 273.00586 398.56836 L 218.45703 398.56836 L 218.45703 263.03125 L 172.8457 263.03125 L 172.8457 210.20898 L 218.45703 210.20898 L 218.45703 171.25391 C 218.45703 126.04664 246.0674 101.43164 286.39648 101.43164 z "
+       id="rect10209" />
+  </g>
+</svg>
