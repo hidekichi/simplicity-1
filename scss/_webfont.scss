@@ -1,0 +1,16 @@
+/**
+ * Google FontsのBoogalooをダウンロードしたものの呼び出し
+ */
+
+@font-face {
+  /* for IE */
+  font-family: Boogaloo;
+  src: url('webfonts/boogaloo/Boogaloo-Regular.ttf');
+}
+
+
+@font-face {
+  /* for non IE */
+  font-family: Boogaloo;
+  src: url('webfonts/boogaloo/Boogaloo-Regular.ttf') format("truetype");
+}

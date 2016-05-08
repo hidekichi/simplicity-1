@@ -1,0 +1,92 @@
+/**
+ * アイコンフォントの大きさ
+ */
+.snsp {
+	li {
+		a {
+			span {
+				display: inline-block;
+				// width: 33px;
+				// height: 33px;
+				@include square(33px);
+				font-size: 40px;
+				line-height: 33.5px;
+				padding: 0;
+				background-repeat: no-repeat;
+				background-position: 3px 5px;
+				background-color: #fff;
+				border-radius: 8px;
+				//z-index: 10; //重複
+				z-index: 1;
+				&.icon-feedly-square,
+				&.icon-hatebu-square,
+				&.icon-line-square,
+				&.icon-push7-square {
+					position: relative;
+					font-size: 34px;
+					//画像をBase64にするためコメントアウト
+					//background-image: url("../images/white-feedly.png");
+					//background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcAQMAAABIw03XAAAABlBMVEUAAAD///+l2Z/dAAAAAXRSTlMAQObYZgAAAB9JREFUCNdjkP//v4Gh/v//BxDi////H+hGIOwFOwMAuf5pDfN+XdkAAAAASUVORK5CYII=");
+					// top: 1px;
+					// line-height: 34.5px;
+				}
+			}
+			&.twitter-page a span:hover {
+				color: $twitterColor;
+			}
+			&.facebook-page a span:hover {
+				color: $facebookColor;
+			}
+			&.google-plus-page a span:hover {
+				color: $googlePlusColor;
+			}
+			&.instagram-page a span:hover {
+				color: $instagramColor;
+			}
+			&.hatebu-page a span:hover {
+				color: $hatenaColor;
+			}
+			&.pinterest-page a span:hover {
+				color: $pinterestColor;
+			}
+			&.youtube-page a span:hover {
+				color: $youtubeColor;
+			}
+			&.flickr-page a span:hover {
+				color: $flickrColor;
+			}
+			&.feedly-page a span:hover {
+				color: $feedlyColor;
+			}
+			&.push7-page a span:hover {
+				color: $push7Color;
+			}
+			&.line-page a span:hover {
+				color: $lineColor;
+			}
+			&.rss-page a span:hover {
+				color: $rssColor;
+			}
+			&.feedly-page a img {
+				margin-bottom: -3px;
+				// width: 32.5px;
+				// height: 32.5px;
+				@include square(32.5px);
+				border-radius: 7px;
+				border-width: 0;
+			}
+		}
+	}
+	//feedly、LINEアイコンは自作なので少し大きかったので調整
+	#footer {
+		.snsp {
+			li {
+				a {
+					span {
+						background-color: transparent;
+					}
+				}
+			}
+		}
+	}
+}

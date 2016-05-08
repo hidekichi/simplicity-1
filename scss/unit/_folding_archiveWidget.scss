@@ -1,0 +1,43 @@
+/**
+ * 折り畳みアーカイブウィジェット
+ */
+
+.widget_archive {
+	a.year {
+		cursor: pointer;
+		text-decoration: underline;
+	}
+	.years {
+		ul {
+			transition: 0.3s ease;
+			margin: 0 0 1em;
+		}
+	}
+}
+
+#sidebar {
+	.widget_archive ul.years li {
+		margin-bottom: 0;
+	}
+}
+
+.widget_archive {
+	ul.years {
+		.hide {
+			display: none;
+			height: 0;
+			margin: 0;
+			opacity: 0;
+			visibility: hidden;
+			overflow: hidden;
+		}
+	}
+}
+
+ .admin-pv {
+   text-align: right;
+   > span {
+     margin: 0 5px;
+     padding: 0 3px;
+   }
+ }

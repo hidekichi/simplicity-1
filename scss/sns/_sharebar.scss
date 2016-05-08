@@ -1,0 +1,41 @@
+/**
+ * シェアバー
+ */
+#sharebar {
+    //position: absolute; //後で上書きされている
+    position: fixed;
+    border: 1px solid #CCCCCC;
+    margin: -50px 0 0 -110px;
+    padding: 0;
+    width: 90px;
+    text-align: center;
+    background: none repeat scroll 0 0 #FFFFFF;
+    z-index: 99;
+    ul {
+        &.snsb-balloon {
+            li {
+                margin-left: 15px;
+                margin-bottom: 10px;
+            }
+        }
+        li {
+            display: block;
+            margin: 5px;
+            overflow: hidden;
+            padding: 0;
+            text-align: center;
+            float: none;
+            padding: 0;
+            div {
+                margin: auto;
+            }
+        }
+    }
+    .comments-balloon-btn {
+        margin-left: 15px;
+        margin-bottom: 10px;
+    }
+    .sns-share-msg {
+        display: none;
+    }
+}

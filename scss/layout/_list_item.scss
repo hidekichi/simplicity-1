@@ -1,0 +1,71 @@
+/*
+	リストアイテム(index.phpのリスト)
+ */
+// #main か #list #listの方が良いような気も
+#main .entry {
+    clear: both;
+    margin-bottom: 40px;
+    // overflow: auto;
+    // zoom: 1;
+    word-wrap: break-word;
+}
+.entry-thumb {
+    float: left;
+    margin-right: 10px;
+    margin-top: 3px;
+    margin-left: 0;
+    a {
+        display: block;
+    }
+    img {
+        display: block;
+        // width: 150px;
+        // height: 150px;
+        @include square(150px);
+        //  margin-bottom: 40px;
+        border: 0;
+    }
+}
+// 大きなサムネイル表示スタイルでのサムネイル
+.entry-large-thumbnail {
+    img {
+        // width: 320px;
+        // height: 180px;
+        @include size(320px, 180px);
+    }
+}
+.entry-card-content {
+    margin-left: 160px;
+}
+.entry {
+    .post-meta {
+        margin: 7px auto;
+        text-align: left;
+        a {
+            color: #000;
+        }
+    }
+    h2 {
+        margin-top: 0;
+        margin-bottom: 5px;
+        a {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+            text-decoration: none;
+        }
+    }
+}
+.entry-title {}
+.entry-snippet {
+    margin: 0 0 5px;
+    line-height: 150%;
+    color: #555;
+}
+.entry-read {
+    margin: 0;
+}
+.entry-snippet,
+.related-entry-snippet {
+    word-wrap: break-word;
+}

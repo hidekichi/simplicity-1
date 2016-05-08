@@ -29,7 +29,17 @@
     </rdf:RDF>
   </metadata>
   <defs
-     id="defs4194" />
+     id="defs4194">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5223">
+      <path
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.025;stroke-miterlimit:4;stroke-dasharray:0.1, 0.025;stroke-dashoffset:0;stroke-opacity:1"
+         d="m -424.77332,11.639905 480.540471,0 0,479.877865 -480.540471,0 z"
+         id="path5225"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+  </defs>
   <sodipodi:namedview
      pagecolor="#f0f0f0"
      bordercolor="#666666"
@@ -45,9 +55,9 @@
      showgrid="false"
      showguides="false"
      inkscape:guide-bbox="true"
-     inkscape:zoom="1"
-     inkscape:cx="195.11793"
-     inkscape:cy="190.17527"
+     inkscape:zoom="0.7880519"
+     inkscape:cx="-81.888459"
+     inkscape:cy="212.87757"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -104,10 +114,11 @@
   <g
      inkscape:groupmode="layer"
      id="layer4"
-     inkscape:label="facebook">
+     inkscape:label="facebook"
+     style="opacity:1">
     <path
-       style="opacity:0.97000002;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.025;stroke-miterlimit:4;stroke-dasharray:0.1, 0.02500000000000000;stroke-dashoffset:0;stroke-opacity:1"
-       d="M 0 0 L 0 500 L 500 500 L 500 0 L 0 0 z M 286.39648 101.43164 C 305.71321 101.43164 322.31397 102.86914 327.1543 103.51172 L 327.1543 150.75586 L 299.18359 150.76953 C 277.25195 150.76953 273.00586 161.19103 273.00586 176.48438 L 273.00586 210.20898 L 325.31055 210.20898 L 318.5 263.03125 L 273.00586 263.03125 L 273.00586 398.56836 L 218.45703 398.56836 L 218.45703 263.03125 L 172.8457 263.03125 L 172.8457 210.20898 L 218.45703 210.20898 L 218.45703 171.25391 C 218.45703 126.04664 246.0674 101.43164 286.39648 101.43164 z "
-       id="rect10209" />
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.025;stroke-miterlimit:4;stroke-dasharray:0.1, 0.02500000000000000;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 0 0 L 0 500 L 500 500 L 500 0 L 0 0 z M 293.67383 71.716797 C 316.8539 71.716797 336.77754 73.443748 342.58594 74.214844 L 342.58594 130.90625 L 309.01953 130.92188 C 282.70156 130.92188 277.60547 143.42924 277.60547 161.78125 L 277.60547 202.25 L 340.37305 202.25 L 332.19922 265.63672 L 277.60547 265.63672 L 277.60547 428.2832 L 212.14844 428.2832 L 212.14844 265.63672 L 157.41406 265.63672 L 157.41406 202.25 L 212.14844 202.25 L 212.14844 155.50586 C 212.14844 101.25714 245.27893 71.716797 293.67383 71.716797 z "
+       id="rect5227" />
   </g>
 </svg>

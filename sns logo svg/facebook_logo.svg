@@ -29,7 +29,17 @@
     </rdf:RDF>
   </metadata>
   <defs
-     id="defs4194" />
+     id="defs4194">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5223">
+      <path
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.025;stroke-miterlimit:4;stroke-dasharray:0.1, 0.025;stroke-dashoffset:0;stroke-opacity:1"
+         d="m -424.77332,11.639905 480.540471,0 0,479.877865 -480.540471,0 z"
+         id="path5225"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+  </defs>
   <sodipodi:namedview
      pagecolor="#f0f0f0"
      bordercolor="#666666"
@@ -45,9 +55,9 @@
      showgrid="false"
      showguides="false"
      inkscape:guide-bbox="true"
-     inkscape:zoom="1"
-     inkscape:cx="0.61793"
-     inkscape:cy="190.17527"
+     inkscape:zoom="0.7880519"
+     inkscape:cx="-81.888459"
+     inkscape:cy="212.87757"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -104,9 +114,10 @@
   <g
      inkscape:groupmode="layer"
      id="layer4"
-     inkscape:label="facebook">
+     inkscape:label="facebook"
+     style="opacity:1">
     <path
-       d="m 273.00501,398.56907 0,-135.53789 45.49464,0 6.81133,-52.82247 -52.30597,0 0,-33.72481 c 0,-15.29334 4.24626,-25.71488 26.1779,-25.71488 l 27.97189,-0.0131 0,-47.24386 c -4.84033,-0.64258 -21.44249,-2.08116 -40.75922,-2.08116 -40.32908,0 -67.93903,24.61595 -67.93903,69.82322 l 0,38.9546 -45.61135,0 0,52.82247 45.61135,0 0,135.5379 54.54846,0"
+       d="m 277.60601,428.28285 0,-162.64546 54.59357,0 8.1736,-63.38697 -62.76717,0 0,-40.46977 c 0,-18.35201 5.09551,-30.85785 31.41348,-30.85785 l 33.56627,-0.0157 0,-56.692622 c -5.8084,-0.771096 -25.73099,-2.497392 -48.91106,-2.497392 -48.3949,0 -81.52684,29.539134 -81.52684,83.787854 l 0,46.74552 -54.73362,0 0,63.38697 54.73362,0 0,162.64548 65.45815,0"
        style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="path5148"
        inkscape:connector-curvature="0" />
