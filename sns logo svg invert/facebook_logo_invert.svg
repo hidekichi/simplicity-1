@@ -24,7 +24,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -38,6 +38,17 @@
          d="m -424.77332,11.639905 480.540471,0 0,479.877865 -480.540471,0 z"
          id="path5225"
          inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4784">
+      <rect
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.02491532;stroke-miterlimit:4;stroke-dasharray:0.0996613, 0.02491532;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect4786"
+         width="753.77881"
+         height="753.68658"
+         x="-593.86957"
+         y="-113.53905" />
     </clipPath>
   </defs>
   <sodipodi:namedview
@@ -55,9 +66,9 @@
      showgrid="false"
      showguides="false"
      inkscape:guide-bbox="true"
-     inkscape:zoom="0.7880519"
-     inkscape:cx="-81.888459"
-     inkscape:cy="212.87757"
+     inkscape:zoom="1.0772655"
+     inkscape:cx="-53.47019"
+     inkscape:cy="236.02507"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -117,8 +128,9 @@
      inkscape:label="facebook"
      style="opacity:1">
     <path
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.025;stroke-miterlimit:4;stroke-dasharray:0.1, 0.02500000000000000;stroke-dashoffset:0;stroke-opacity:1"
-       d="M 0 0 L 0 500 L 500 500 L 500 0 L 0 0 z M 293.67383 71.716797 C 316.8539 71.716797 336.77754 73.443748 342.58594 74.214844 L 342.58594 130.90625 L 309.01953 130.92188 C 282.70156 130.92188 277.60547 143.42924 277.60547 161.78125 L 277.60547 202.25 L 340.37305 202.25 L 332.19922 265.63672 L 277.60547 265.63672 L 277.60547 428.2832 L 212.14844 428.2832 L 212.14844 265.63672 L 157.41406 265.63672 L 157.41406 202.25 L 212.14844 202.25 L 212.14844 155.50586 C 212.14844 101.25714 245.27893 71.716797 293.67383 71.716797 z "
-       id="rect5227" />
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.025;stroke-miterlimit:4;stroke-dasharray:0.1, 0.025;stroke-dashoffset:0;stroke-opacity:1"
+       d="m -2e-6,0 0,500 L 500,500 500,0 -2e-6,0 Z M 293.67383,71.716797 c 23.18007,0 43.10371,1.726951 48.91211,2.498047 l 0,56.691406 -33.56641,0.0156 c -26.31797,0 -31.41406,12.50736 -31.41406,30.85937 l 0,40.46875 62.76758,0 -8.17383,63.38672 -54.59375,0 0,162.64648 -65.45703,0 0,-162.64648 -54.73438,0 0,-63.38672 54.73438,0 0,-46.74414 c 0,-54.24872 33.13049,-83.789063 81.52539,-83.789063 z"
+       id="rect5227"
+       inkscape:connector-curvature="0" />
   </g>
 </svg>
