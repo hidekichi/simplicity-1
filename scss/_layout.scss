@@ -34,6 +34,7 @@
 #navi ul,
 .clearfix {
     //display: inline-block;
+    @include clearfix();
 }
 
 #container,
