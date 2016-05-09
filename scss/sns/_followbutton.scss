@@ -1,24 +1,32 @@
 /**
    * SNSページフォロー
    */
+
 .sns-follow-msg {
     margin: 8px 0 0;
     font-size: medium;
 }
+
 .sns-share-msg {
     margin-bottom: -20px;
     font-size: medium;
 }
-#header .sns-follow-msg {
-    display: none;
+
+#header {
+    .sns-follow-msg {
+        display: none;
+    }
 }
+
 .snsp {
     list-style: none;
     padding-left: 0;
     margin: 10px 0 15px;
+
     li {
         display: inline;
         margin-right: 5px;
+
         a {
             color: #666;
             font-size: 19px;

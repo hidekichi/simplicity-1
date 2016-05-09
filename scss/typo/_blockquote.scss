@@ -1,0 +1,32 @@
+/**
+ * 引用（blockquote）
+ */
+
+blockquote {
+  background: none repeat scroll 0 0 rgba(245, 245, 245, 0.8);
+  border: 1px solid #FFFFFF;
+  margin: 1em 0;
+  padding: 20px 55px;
+  position: relative;
+  &::before,
+  &::after {
+	  font-family: serif;
+	  font-size: 600%;
+	  color: #C8C8C8;
+	  position: absolute;
+
+  }
+  &:before {
+	  content: "“";
+	  line-height: 1em;
+	  left: 0;
+	  top: 0;
+  }
+  &:after {
+	  content: "”";
+	  line-height: 0;
+	  //bottom: 0;	//上書きされている
+	  bottom: -16px;
+	  right: 0;
+  }
+}

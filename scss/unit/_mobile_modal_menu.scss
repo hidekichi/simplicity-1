@@ -5,33 +5,41 @@
 	font-size: 45px;
 	text-align: center;
 }
+
 .modal-content {
 	width: auto;
 	max-width: 440px;
 	margin: auto;
 }
-#animatedModal ul {
-	list-style-type: none;
-	padding-left: 0;
-	margin-top: 0;
-	margin-left: 0;
-	li {
-		margin: 0 10px 10px;
-		border: 1px solid #fff;
-		border-radius: 5px;
-		a {
-			display: block;
-			width: auto;
-			padding: 5px 10px;
-			color: #fff;
-			text-decoration: none;
+
+#animatedModal {
+	ul {
+		list-style: none;
+		margin-top: 0;
+		margin-left: 0;
+		padding-left: 0;
+
+		li {
+			margin: 0 10px 10px;
+			border: 1px solid #fff;
 			border-radius: 5px;
-			&:hover {
-				background-color: #555;
+
+			a {
+				display: block;
+				width: auto;
+				padding: 5px 10px;
+				color: #fff;
+				text-decoration: none;
+				border-radius: 5px;
+
+				&:hover {
+					background-color: #555;
+				}
 			}
 		}
 	}
 }
+
 // Google検索ボックス用
 //
 #___gcse_0 {
@@ -41,11 +49,13 @@
 		border: none;
 	}
 }
+
 // SlickNav用スタイル
 //
 .slicknav_menu {
 	display: none;
 }
+
 // Firefoxの不具合？対策
 //
 div.vdh-mask {

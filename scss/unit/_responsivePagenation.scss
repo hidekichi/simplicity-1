@@ -1,23 +1,30 @@
+/**
+ * ページネーション
+ */
+
 .pagination {
-	list-style-type: none;
+	list-style: none;
 	margin: 40px 0;
 	padding-left: 0;
 	text-align: center;
+
 	li {
 		display: inline-block;
 	}
+
 	a {
 		display: block;
 		// width: 36px;
 		// height: 36px;
 		@include square(36px);
-		color: #333;
 		font-weight: 300;
 		line-height: 36px;
+		color: #333;
 		text-decoration: none;
 		border: 1px solid #ddd;
 		border-left-width: 0;
 	}
+
 	li {
 		&:not([class*="current"]) {
 			a {
@@ -26,11 +33,13 @@
 				}
 			}
 		}
+
 		&:first-of-type {
 			a {
 				border-left-width: 1px;
 			}
 		}
+
 		&.first,
 		&.last,
 		&.next,
@@ -41,6 +50,7 @@
 				top: -9999px;
 				left: -9999px;
 			}
+
 			a {
 				&::before {
 					display: inline-block;
@@ -53,6 +63,7 @@
 				}
 			}
 		}
+
 		&.first a::before {
 			content: "\f100";
 		}
@@ -65,23 +76,28 @@
 		&.next a::after {
 			content: "\f105";
 		}
-		&.current a {
-			background-color: #ddd;
-			cursor: default;
-			pointer-events: none;
+		&.current {
+			a {
+				background-color: #ddd;
+				cursor: default;
+				pointer-events: none;
+			}
 		}
 	}
+
 	> li {
 		&:first-child > a {
 			border-bottom-left-radius: 4px;
 			border-top-left-radius: 4px;
 		}
+
 		&:last-child > a {
 			border-bottom-right-radius: 4px;
 			border-top-right-radius: 4px;
 		}
 	}
 }
+
 @media only screen and (max-width: 640px) {
 	.pagination li {
 		&.first,
@@ -91,11 +107,13 @@
 			top: -9999px;
 			left: -9999px;
 		}
+
 		&.previous a {
 			border-left-width: 1px;
 		}
 	}
 }
+
 @media only screen and (max-width: 500px) {
 	.pagination li {
 		/* screen readers only */
@@ -111,11 +129,15 @@
 			top: initial;
 			left: initial;
 		}
-		&.previous a {
-			border-left-width: 0;
+
+		&.previous {
+			a {
+				border-left-width: 0;
+			}
 		}
 	}
 }
+
 // @media only screen and ( max-width: 400px ) {
 //   .pagination li.first,
 //   .pagination li.last {
@@ -126,7 +148,9 @@
 //
 //   .pagination li.previous a { border-left-width: 1px; }
 // }
+//
 .entry-large-thumnail {
-	width: 100%;
-	height: auto;
+	// width: 100%;
+	// height: auto;
+	@include size(100%, auto);
 }

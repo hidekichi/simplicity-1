@@ -10,6 +10,7 @@
 	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.05);
 	opacity: 0.99;
 	overflow: hidden;
+
 	&:before {
 		content: '';
 		position: absolute;
@@ -24,11 +25,13 @@
 		opacity: 0;
 		z-index: 2;
 	}
+
 	img {
 		display: block;
 		max-width: 100%;
 		backface-visibility: hidden;
 	}
+
 	.details {
 		position: absolute;
 		bottom: 0;
@@ -37,10 +40,12 @@
 		font-size: 16px;
 		color: #fff;
 		z-index: 3;
+
 		a {
 			color: #fff;
 			text-decoration: none;
 		}
+
 		span {
 			display: block;
 			position: relative;
@@ -50,21 +55,25 @@
 			transition-delay: 0s;
 			opacity: 0;
 		}
+
 		.info {
 			line-height: 1.2;
 			margin-top: 5px;
 			font-size: 12px;
 		}
 	}
+
 	&:hover {
 		&:before {
 			opacity: 1;
 			top: 50%;
 		}
+
 		span {
 			top: 0;
 			opacity: 1;
 		}
+
 		.info {
 			transition-delay: 0.15s;
 		}

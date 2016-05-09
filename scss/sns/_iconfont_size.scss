@@ -18,6 +18,7 @@
 				border-radius: 8px;
 				//z-index: 10; //重複
 				z-index: 1;
+
 				&.icon-feedly-square,
 				&.icon-hatebu-square,
 				&.icon-line-square,
@@ -31,6 +32,7 @@
 					// line-height: 34.5px;
 				}
 			}
+			
 			&.twitter-page a span:hover {
 				color: $twitterColor;
 			}

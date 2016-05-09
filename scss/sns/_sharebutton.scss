@@ -1,26 +1,31 @@
 /**
  * SNSシェアボタン
  */
+
 #sns-group {
     //clear: both;
     @include clearfix;
 }
+
 .snsb {
-    padding: 10px 0;
     margin-bottom: 0;
+    padding: 10px 0;
     font-family: sans-serif;
+
     li {
         float: left;
-        list-style-type: none;
-        margin-right: 7px;
         margin-top: 2px;
         margin-bottom: 5px;
+        margin-right: 7px;
+        list-style-type: none;
     }
 }
+
 .snsbs {
     li {
         margin-right: 5px;
         margin-bottom: 5px;
+
         a {
             display: block;
             position: relative;
@@ -28,12 +33,13 @@
             // height: 30px;
             @include size(25px,30px);
             padding: 7px 6px 3px;
-            color: #fff;
             font-size: 25px;
-            text-decoration: none;
+            color: #fff;
             text-align: center;
+            text-decoration: none;
             background-color: #000;
             border-radius: 5px;
+
             .social-count {
                 //position: relative; あとで上書きされている
                 display: inline-block;
@@ -50,14 +56,17 @@
                 background-color: #555;
                 border-radius: 5px;
             }
+
             &:hover {
                 opacity: 0.7;
             }
         }
+
         img {
             border-radius: 10px;
         }
     }
+
     a {
         &.twitter-btn-icon-link {
             background-color: $twitterColor;
@@ -93,6 +102,7 @@
         }
     }
 }
+
 img {
     &.evernote-btn-img {
         min-height: 62px;
@@ -101,19 +111,23 @@ img {
         display: none;
     }
 }
+
 /**
 * 自作のバルーンシェアボタン
 */
+
 .balloon-btn-set {
     display: block;
     // width: 60px;
     // height: 63px;
     @include size(60px,63px);
+
     a {
         display: block;
         font-size: 14px;
         color: #777;
         text-decoration: none;
+
         &.twitter-arrow-box-link {
             .fa-comments {
                 font-size: 13px;
@@ -122,6 +136,7 @@ img {
         }
     }
 }
+
 a {
     &.arrow-box-link {
         display: block;
@@ -129,14 +144,17 @@ a {
         font-family: Arial;
         font-size: 14px;
         text-align: center;
+
         &:hover {
             color: #555;
         }
     }
+
     &.evernote-arrow-box-link {
         font-family: 'Boogaloo', cursive;
         font-weight: normal;
     }
+
     &.balloon-btn-link {
         display: block;
         position: relative;
@@ -149,10 +167,12 @@ a {
         line-height: 22px;
         border: 1px solid #ddd;
         border-radius: 3px;
+
         &:hover {
             opacity: 0.7;
         }
     }
+
     &.twitter-balloon-btn-link {
         background-color: $twitterColor;
     }
@@ -199,6 +219,7 @@ a {
     background: #fff;
     border: 1px solid #bbb;
     border-radius: 3px;
+
     &:after,
     &:before {
         content: "";
@@ -211,12 +232,14 @@ a {
         border: solid transparent;
         pointer-events: none;
     }
+
     &:after {
         margin-left: -3px;
         border-color: rgba(255, 255, 255, 0);
         border-top-color: #fff;
         border-width: 3px;
     }
+    
     &:before {
         margin-left: -5px;
         border-color: rgba(187, 187, 187, 0);

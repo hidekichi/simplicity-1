@@ -11,9 +11,11 @@
 		color: #777;
 		border-color: #bbb;
 	}
+
 	.p7-left {
 		margin-left: 6px;
 	}
+
 	.p7-top {
 		height: 33px;
 		margin-bottom: 4px;
@@ -21,6 +23,7 @@
 		line-height: 33px;
 	}
 }
+
 #sharebar {
 	.snsb {
 		.p7-b {
@@ -38,9 +41,11 @@
 		> a {
 			padding: 2px 4px;
 			border: 1px solid #ddd;
+
 			> span {
 				font-size: 12px;
 			}
+
 			&:hover {
 				opacity: 0.7;
 			}
@@ -143,9 +148,11 @@
 // .EmbeddedTweet {
 //   max-width: 100%;
 // }
+
 .facebook-save-button {
 	margin: 1em 0;
 }
+
 .widget-under-sns-buttons.widget_facebook_save_button {
 	.main-widget-label {
 		display: block;

@@ -3,10 +3,12 @@
  */
 
 .widget_archive {
+
 	a.year {
 		cursor: pointer;
 		text-decoration: underline;
 	}
+
 	.years {
 		ul {
 			transition: 0.3s ease;
@@ -16,8 +18,12 @@
 }
 
 #sidebar {
-	.widget_archive ul.years li {
-		margin-bottom: 0;
+	.widget_archive {
+		ul.years {
+			li {
+				margin-bottom: 0;
+			}
+		}
 	}
 }
 
@@ -25,8 +31,8 @@
 	ul.years {
 		.hide {
 			display: none;
-			height: 0;
 			margin: 0;
+			height: 0;
 			opacity: 0;
 			visibility: hidden;
 			overflow: hidden;
@@ -34,10 +40,11 @@
 	}
 }
 
- .admin-pv {
-   text-align: right;
-   > span {
-     margin: 0 5px;
-     padding: 0 3px;
-   }
- }
+.admin-pv {
+	text-align: right;
+
+	> span {
+		margin: 0 5px;
+		padding: 0 3px;
+	}
+}

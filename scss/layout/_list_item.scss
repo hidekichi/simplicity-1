@@ -1,14 +1,18 @@
 /*
 	リストアイテム(index.phpのリスト)
  */
+
 // #main か #list #listの方が良いような気も
-#main .entry {
-    clear: both;
-    margin-bottom: 40px;
-    // overflow: auto;
-    // zoom: 1;
-    word-wrap: break-word;
+#main {
+    .entry {
+        clear: both;
+        margin-bottom: 40px;
+        // overflow: auto;
+        // zoom: 1;
+        word-wrap: break-word;
+    }
 }
+
 .entry-thumb {
     float: left;
     margin-right: 10px;
@@ -26,6 +30,7 @@
         border: 0;
     }
 }
+
 // 大きなサムネイル表示スタイルでのサムネイル
 .entry-large-thumbnail {
     img {
@@ -34,20 +39,25 @@
         @include size(320px, 180px);
     }
 }
+
 .entry-card-content {
     margin-left: 160px;
 }
+
 .entry {
     .post-meta {
         margin: 7px auto;
         text-align: left;
+
         a {
             color: #000;
         }
     }
+
     h2 {
         margin-top: 0;
         margin-bottom: 5px;
+
         a {
             font-size: 24px;
             font-weight: bold;
@@ -56,15 +66,19 @@
         }
     }
 }
+
 .entry-title {}
+
 .entry-snippet {
     margin: 0 0 5px;
     line-height: 150%;
     color: #555;
 }
+
 .entry-read {
     margin: 0;
 }
+
 .entry-snippet,
 .related-entry-snippet {
     word-wrap: break-word;

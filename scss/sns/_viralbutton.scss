@@ -1,6 +1,7 @@
 /**
  * バイラルボタン
  */
+
 .sns-group-viral {
     .snsb {
         li {
@@ -8,14 +9,15 @@
                 // width: 150px;
                 // height: 35px;
                 @include size(150px, 35px);
+                margin-bottom: 5px;
                 font-size: 16px;
                 line-height: 35px;
                 text-align: center;
-                margin-bottom: 5px;
                 border-radius: 3px;
             }
         }
     }
+
     .snsbs {
         li {
             a {
@@ -28,6 +30,7 @@
             }
         }
     }
+
     .social-icon {
         &:after {
             position: relative;
@@ -36,9 +39,11 @@
             margin-left: 7px;
         }
     }
+
     .fa-comment:after {
         top: 0;
     }
+
     .icon-twitter:after {
         content: 'Twitter';
     }
@@ -70,6 +75,7 @@
         content: 'Comment';
     }
 }
+
 /**
   * バイラルボタン（シェアバー）
   */

@@ -4,13 +4,14 @@
 #sharebar {
     //position: absolute; //後で上書きされている
     position: fixed;
-    border: 1px solid #CCCCCC;
+    width: 90px;
     margin: -50px 0 0 -110px;
     padding: 0;
-    width: 90px;
     text-align: center;
-    background: none repeat scroll 0 0 #FFFFFF;
+    background: none repeat scroll 0 0 #FFF;
+    border: 1px solid #CCC;
     z-index: 99;
+
     ul {
         &.snsb-balloon {
             li {
@@ -18,23 +19,27 @@
                 margin-bottom: 10px;
             }
         }
+
         li {
             display: block;
-            margin: 5px;
-            overflow: hidden;
-            padding: 0;
-            text-align: center;
             float: none;
+            margin: 5px;
             padding: 0;
+            //padding: 0;
+            text-align: center;
+            overflow: hidden;
+
             div {
                 margin: auto;
             }
         }
     }
+
     .comments-balloon-btn {
         margin-left: 15px;
         margin-bottom: 10px;
     }
+    
     .sns-share-msg {
         display: none;
     }

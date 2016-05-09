@@ -2,6 +2,12 @@
  * 基本設定（General Setting）
  */
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 html {
   margin: 0;
   padding: 0;

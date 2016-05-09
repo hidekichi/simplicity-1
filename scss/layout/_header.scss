@@ -1,11 +1,13 @@
 /*
 	ヘッダー
  */
+
 *:first-child + html #header > div {
     /* IE7 */
     clear: both;
     zoom: 1;
 }
+
 #header {
     margin-bottom: 0;
     .alignleft,
@@ -27,6 +29,7 @@
         margin-right: 30px;
     }
 }
+
 #h-top {
     position: relative;
     min-height: 100px;
@@ -34,6 +37,7 @@
     background-position: top left;
     overflow: hidden;
 }
+
 #site-title {
     margin-top: 16px;
     margin-bottom: 10px;
@@ -46,6 +50,7 @@
         font-weight: normal;
     }
 }
+
 #site-description {
     margin: 0;
     //margin-top: 0; //margin:0があるのでcomment out
@@ -57,6 +62,7 @@
     color: #777;
     line-height: 140%;
 }
+
 #header-image {
     margin-bottom: 40px;
 }

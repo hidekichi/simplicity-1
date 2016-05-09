@@ -1,21 +1,25 @@
 /*
 	メインカラム（#main、記事、固定ページなど）
  */
+
 #main {
     .page,
     .post {
         margin-bottom: 59px;
     }
 }
+
 .sticky {
     /* 先頭固定ポストのスタイル */
 }
+
 .post-meta {
     margin-bottom: 0.5em;
     font-size: 16px;
     color: #555;
     text-align: right;
     background-color: #F7F7F7;
+
     .category,
     .comments,
     .edit,
@@ -24,25 +28,28 @@
         padding-right: 0.7em;
     }
 }
+
+.comment-num {
+    white-space: nowrap;
+}
+
 .footer-post-meta {
+    font-size: 16px;
+    color: #555;
+    text-align: right;
+    clear: both;
+
     .edit,
     .post-author,
     .post-tag {
         padding-right: 0.7em;
     }
 }
-.comment-num {
-    white-space: nowrap;
-}
-.footer-post-meta {
-    font-size: 16px;
-    color: #555;
-    text-align: right;
-    clear: both;
-}
+
 .article-list .footer-post-meta {
     margin-top: 30px;
 }
+
 .more-link {
     display: block;
     margin-top: 15px;
@@ -50,21 +57,27 @@
     text-align: right;
     clear: both;
 }
-/*タグが入っていない場合は非表示*/
-#list .post .footer-post-meta {
-    &:empty,
-    .post-tag:empty {
-        display: none;
+
+//タグが入っていない場合は非表示
+#list {
+    .post .footer-post-meta {
+        &:empty,
+        .post-tag:empty {
+            display: none;
+        }
     }
 }
+
 .content-box {
     float: right;
     margin-top: -0.25em;
     width: 420px;
+
     .more-link {
         margin: 0;
     }
 }
+
 .thumbnail-box {
     float: left;
     width: 160px;
@@ -74,6 +87,7 @@
         @include square(160px);
     }
 }
+
 #main {
     .snsp {
         padding-left: 0;

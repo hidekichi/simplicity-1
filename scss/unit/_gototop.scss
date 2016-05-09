@@ -1,18 +1,20 @@
 /**
  * TOPへ戻るボタン（Go to top）
  */
+
 #page-top {
 	display: none;
 	position: fixed;
-	right: 10px;
 	bottom: 10px;
+	right: 10px;
+
 	a {
 		display: block;
+		padding: 7px;
 		font-size: 11px;
 		color: #fff;
-		text-align: center;
 		line-height: 100%;
-		padding: 7px;
+		text-align: center;
 		background-color: #aaa;
 		border-radius: 4px;
 		text-decoration: none;

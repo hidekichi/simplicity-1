@@ -1,34 +1,42 @@
 /**
  *	前の記事へ、次の記事へ
  */
+
 .navigation {
 	clear: both;
-	overflow: hidden;
 	margin: 20px -30px 40px;
+	overflow: hidden;
+
 	> div {
 		border-top: 1px solid #ddd;
 		border-bottom: 1px solid #ddd;
+
 		+ div {
 			border-top: 0;
 			border-bottom: 1px solid #ddd;
 		}
 	}
+
 	.alignright {
 		text-align: right;
+
 		a:hover {
 			border-left: 1px solid #ddd;
 		}
 	}
+
 	a {
 		display: block;
 		padding: 1em;
 		border: none;
+
 		span {
-			color: #ddd;
-			padding-right: 10px;
 			margin-top: -4px;
+			padding-right: 10px;
+			color: #ddd;
 			clear: left;
 		}
+
 		&:hover {
 			background: #eee;
 		}
@@ -40,27 +48,31 @@
 */
 
 a.page-numbers {
-	background-color: #ddd;
-	border: solid 1px #ddd;
-	border-radius: 5px;
 	padding: 5px 8px;
 	margin: 0 2px;
+	background-color: #ddd;
+	border: 1px solid #ddd;
+	border-radius: 5px;
 }
+
 .pager {
 	margin: 3em 0;
 	text-align: center;
+
 	.current {
 		margin: 0 2px;
 		padding: 5px 8px;
 		color: #000;
 		background-color: #ddd;
-		border: solid 1px #ddd;
+		border: 1px solid #ddd;
 		border-radius: 5px;
 	}
+
 	a {
 		color: #000;
-		background: #fff;
+		background-color: #fff;
 		text-decoration: none;
+
 		&:hover {
 			border: solid 1px #ddd;
 			background-color: #eee;
@@ -75,6 +87,7 @@ a.page-numbers {
 .page-link {
 	margin: 3em 0;
 	text-align: center;
+
 	span {
 		margin-right: 3px;
 		padding: 5px 8px;
@@ -82,13 +95,16 @@ a.page-numbers {
 		border: 1px solid #ddd;
 		border-radius: 5px;
 	}
+
 	a {
 		color: #000;
 		border-bottom: none;
 		text-decoration: none;
+
 		span {
 			color: #000;
 			background-color: #fff;
+
 			&:hover {
 				color: inherit;
 				background: inherit;
@@ -100,6 +116,7 @@ a.page-numbers {
 .comment-page-link {
 	margin: 1em 1em 3em;
 	text-align: center;
+
 	a,
 	span {
 		margin-right: 3px;
@@ -107,6 +124,7 @@ a.page-numbers {
 		background-color: #ddd;
 		border: 1px solid #ddd;
 		border-radius: 5px;
+
 		&:hover {
 			color: #000;
 			background-color: inherit;
