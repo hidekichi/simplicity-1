@@ -1,3 +1,4 @@
+
 /**
  * SNSシェアボタン
  */
@@ -112,10 +113,9 @@ img {
     }
 }
 
-/**
-* 自作のバルーンシェアボタン
-*/
-
+//
+//  自作のバルーンシェアボタン
+//  ------------------------------------------
 .balloon-btn-set {
     display: block;
     // width: 60px;
@@ -239,7 +239,7 @@ a {
         border-top-color: #fff;
         border-width: 3px;
     }
-    
+
     &:before {
         margin-left: -5px;
         border-color: rgba(187, 187, 187, 0);

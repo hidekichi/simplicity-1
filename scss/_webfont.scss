@@ -1,16 +1,15 @@
-/**
- * Google FontsのBoogalooをダウンロードしたものの呼び出し
- */
+//
+//  Google FontsのBoogalooをダウンロードしたものの呼び出し
+//  ------------------------------------------
 
+//for IE
 @font-face {
-  /* for IE */
-  font-family: Boogaloo;
-  src: url('webfonts/boogaloo/Boogaloo-Regular.ttf');
+    font-family: Boogaloo;
+    src: url('webfonts/boogaloo/Boogaloo-Regular.ttf');
 }
 
-
+//for non IE
 @font-face {
-  /* for non IE */
-  font-family: Boogaloo;
-  src: url('webfonts/boogaloo/Boogaloo-Regular.ttf') format("truetype");
+    font-family: Boogaloo;
+    src: url('webfonts/boogaloo/Boogaloo-Regular.ttf') format("truetype");
 }

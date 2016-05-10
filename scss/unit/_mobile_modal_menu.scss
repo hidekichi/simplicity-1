@@ -1,6 +1,8 @@
+
 /**
  * モバイルモーダルメニュー（animatedModal.js）
  */
+
 .close-animatedModal {
 	font-size: 45px;
 	text-align: center;
@@ -40,8 +42,9 @@
 	}
 }
 
-// Google検索ボックス用
 //
+//  Google検索ボックス用
+//  ------------------------------------------
 #___gcse_0 {
 	.cse .gsc-control-cse,
 	.gsc-control-cse {
@@ -50,14 +53,16 @@
 	}
 }
 
-// SlickNav用スタイル
 //
+//  SlickNav用スタイル
+//  ------------------------------------------
 .slicknav_menu {
 	display: none;
 }
 
-// Firefoxの不具合？対策
 //
+//  Firefoxの不具合？対策
+//  ------------------------------------------
 div.vdh-mask {
 	display: none;
 }

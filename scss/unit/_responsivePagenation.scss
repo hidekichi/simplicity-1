@@ -1,3 +1,4 @@
+
 /**
  * ページネーション
  */
@@ -52,7 +53,8 @@
 			}
 
 			a {
-				&::before {
+				&::before,
+				&::after {
 					display: inline-block;
 					font-family: Fontawesome;
 					font-size: inherit;

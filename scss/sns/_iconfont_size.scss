@@ -1,6 +1,8 @@
+
 /**
  * アイコンフォントの大きさ
  */
+
 .snsp {
 	li {
 		a {
@@ -32,7 +34,7 @@
 					// line-height: 34.5px;
 				}
 			}
-			
+
 			&.twitter-page a span:hover {
 				color: $twitterColor;
 			}
@@ -79,7 +81,10 @@
 			}
 		}
 	}
-	//feedly、LINEアイコンは自作なので少し大きかったので調整
+
+	//
+	//  feedly、LINEアイコンは自作なので少し大きかったので調整
+	//  ------------------------------------------
 	#footer {
 		.snsp {
 			li {

@@ -27,7 +27,8 @@
         // height: 150px;
         @include square(150px);
         //  margin-bottom: 40px;
-        border: 0;
+        // basic.scssにてborder-width: 0になっているのでコメントアウト
+        //border: 0;
     }
 }
 
@@ -71,8 +72,8 @@
 
 .entry-snippet {
     margin: 0 0 5px;
-    line-height: 150%;
     color: #555;
+    line-height: 150%;
 }
 
 .entry-read {

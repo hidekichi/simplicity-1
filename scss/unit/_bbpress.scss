@@ -1,9 +1,12 @@
+
 /**
  * 外部パーツ微調整
  */
 
-// 外部パーツの微調整など
-// SimplicityでbbPressのスタイルを整える
+//
+//  外部パーツの微調整など
+//  SimplicityでbbPressのスタイルを整える
+//  ------------------------------------------
 .bbp-breadcrumb-home {
     display: none;
     + .bbp-breadcrumb-sep {
@@ -97,8 +100,9 @@
     border: 1px solid #ccc;
 }
 
-//bbResolutions
 //
+//  bbResolutions
+//  ------------------------------------------
 .bbr-form-wrapper {
     clear: left;
 }
@@ -134,8 +138,9 @@
     }
 }
 
-// Googleカスタム検索用
 //
+//  Googleカスタム検索用
+//  ------------------------------------------
 #cse-search-box {
     input {
         display: inline-block;
@@ -163,8 +168,11 @@
         }
     }
 }
-// カテゴリ・アーカイブウィジェットをドロップダウンにしたとき
-// ラベルを表示しない
+
+//
+//  カテゴリ・アーカイブウィジェットをドロップダウンにしたとき
+//  ラベルを表示しない
+//  ------------------------------------------
 .widget_archive,
 .widget_categories {
     label.screen-reader-text {

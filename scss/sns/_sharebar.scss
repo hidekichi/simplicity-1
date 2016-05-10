@@ -1,6 +1,8 @@
+
 /**
  * シェアバー
  */
+
 #sharebar {
     //position: absolute; //後で上書きされている
     position: fixed;
@@ -39,7 +41,7 @@
         margin-left: 15px;
         margin-bottom: 10px;
     }
-    
+
     .sns-share-msg {
         display: none;
     }

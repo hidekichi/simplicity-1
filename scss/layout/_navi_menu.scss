@@ -1,6 +1,8 @@
-/*
-	グローバルナビメニュー（menu）
+
+/**
+ * グローバルナビメニュー（menu）
  */
+
 #navi {
     ul {
         position: relative;
@@ -63,9 +65,10 @@
         }
     }
 }
-/*
-	フッターナビメニュー
-  */
+
+//
+//  フッターナビメニュー
+//  ------------------------------------------
 #footer-navi ul {
     text-align: center;
     li {
@@ -84,9 +87,10 @@
         display: none;
     }
 }
-/**
- * モバイルメニュー
- */
+
+//
+//  モバイルメニュー
+//  ------------------------------------------
 #mobile-menu {
     display: none;
     a {
@@ -110,9 +114,10 @@
 #page-top a:hover {
     opacity: 0.7;
 }
-/**
-  * サムネイルつきポストナビ
-  */
+
+//
+//  サムネイルつきポストナビ
+//  ------------------------------------------
 #prev-next {
     display: table;
     width: 100%;
@@ -222,7 +227,10 @@
     //-ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
-/*IE10以降に適用されるCSSハック（一応）*/
+
+//
+//  IE10以降に適用されるCSSハック（一応）
+//  ------------------------------------------
 @media all and (-ms-high-contrast: none) {
     #prev-next-home span {
         margin-top: 50px;

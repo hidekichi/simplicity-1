@@ -1,30 +1,27 @@
-/*
-	variable　変数
- */
+//
+//  variable 変数
+//  ------------------------------------------
 
 // 基本フォントファミリー
-
 $simplicity_fontfamily: 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
 
 
 //	基本色
-
 $fontColor: #333;
 $backgroundColor: transparent;
 
 
 //	anchor
-
 $linkColor: #2098A8;
 $hoverColor: #c03;
 
 // anchor - widget
-
 $widgetlinkColor: #111;
 $widgetHoverColor: #c03;
 
-
-//	tag color
+//
+//  tag color
+//  ------------------------------------------
 
 //	tag - pre
 $preBackground-color: #eee;
@@ -32,12 +29,10 @@ $preBackground-color: #eee;
 //	tag hr
 $hrColor: #ddd;
 
-
 //	tag - table
 $thBackgroundColor: #eee;
 
-//sns color
-//
+//	sns color
 $twitterColor: #55acee;
 $facebookColor: #3b5998;
 $googlePlusColor: #dd4b39;

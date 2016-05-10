@@ -1,10 +1,15 @@
 
-@mixin font-size($sizeValue: 1.6) {
+//
+//  font-size auto px & rem output
+//  ------------------------------------------
+@mixin fz($sizeValue: 1.6) {
   font-size: ($sizeValue * 10) + px;
   font-size: $sizeValue + rem;
 }
 
-// element center
+//
+//  element center
+//  ------------------------------------------
 @mixin centerer {
   position: absolute;
   top: 50%;
@@ -12,9 +17,11 @@
   transform: translate3d(-50%, -50%, 0);
 }
 
-//div block均等割付
-// use: @include rowMachine(3,5%);
-// サンプル http://codepen.io/Hidekichi/pen/NNoKbG
+//
+//  div block均等割付
+//  use: @include rowMachine(3,5%);
+//  サンプル http://codepen.io/Hidekichi/pen/NNoKbG
+//  ------------------------------------------
 @mixin rowMachine($numPerRow, $margin) {
   width: ((100% - (($numPerRow - 1) * $margin)) / $numPerRow);
   &:nth-child(n) {
@@ -27,13 +34,18 @@
   }
 }
 
-//image responsive - bootstrap-mixins
+//
+//  image responsive - bootstrap-mixins
+//  ------------------------------------------
 @mixin img-responsive($display: block) {
   display: $display;
   max-width: 100%; // Part 1: Set a maximum relative to the parent
   height: auto; // Part 2: Scale the height according to the width, otherwise you get stretching
 }
-// Retina image - bootstrap-mixins
+
+//
+//  Retina image - bootstrap-mixins
+//  ------------------------------------------
 @mixin img-retina($file-1x, $file-2x, $width-1x, $height-1x) {
   background-image: url(if($bootstrap-sass-asset-helper, twbs-image-path("#{$file-1x}"), "#{$file-1x}"));
 
@@ -49,9 +61,11 @@
   }
 }
 
-// size - bootstrap-mixins
-// 自動でwidthとheightを入れるmixin
-// squareはひとつの値でwidthとheightを入れる
+//
+//  size - bootstrap-mixins
+//  自動でwidthとheightを入れるmixin
+//  squareはひとつの値でwidthとheightを入れる
+//  ------------------------------------------
 @mixin size($width, $height) {
   width: $width;
   height: $height;
@@ -61,16 +75,10 @@
   @include size($size, $size);
 }
 
-//clearfix - bootstrap-mixins
+//
+//  clearfix
+//  ------------------------------------------
 @mixin clearfix() {
-    // &:before,
-    // &:after {
-    //   content: " ";
-    //   display: table;
-    // }
-    // &:after {
-    //   clear: both;
-    // }
     &::after {
         content: "";
         clear: both;

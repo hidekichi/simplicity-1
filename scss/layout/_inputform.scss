@@ -1,6 +1,8 @@
+
 /**
  * 入力フォーム（Form）
  */
+
 input {
 	&[type="email"],
 	&[type="password"],
@@ -72,7 +74,10 @@ textarea {
 	transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
 	//box-sizing: border-box;
 }
-//Google検索
+
+//
+//  Google検索
+//  ------------------------------------------
 .gsc-search-box {
 	input[type="text"] {
 		background-color: #FFF;
