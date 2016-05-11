@@ -120,6 +120,7 @@ a:hover {
 #footer .credit a:hover {
   color: inherit;
 }
+/*間違い？ .wpp-list a:hover:hover*/
 .widget_new_entries a:hover, .widget_new_popular a:hover, .widget_popular_ranking a:hover, .wpp-list a:hover:hover {
   text-decoration: underline;
 }
@@ -135,6 +136,31 @@ blockquote {
   padding: 20px 55px;
   position: relative;
 }
+
+/* 共通部分はまとめて違う部分だけを分けて書く方が見やすい
+blockquote::before,
+blockquote::after {
+    position: absolute;
+    font-family: serif;
+    font-size: 600%;
+    color: #C8C8C8;
+}
+
+blockquote::before {
+    content: "“";
+    line-height: 1em;
+    top: 0;
+    left: 0;
+}
+
+blockquote::after {
+    content: "”";
+    line-height: 0;
+    bottom: -16px;
+    right: 0;
+}
+*/
+
 blockquote:before {
   color: #C8C8C8;
   content: "“";
@@ -146,7 +172,7 @@ blockquote:before {
   top: 0;
 }
 blockquote:after {
-  bottom: 0;
+  bottom: 0; /* 後で読み込まれているので不要*/
   color: #C8C8C8;
   content: "”";
   font-family: serif;
@@ -285,7 +311,7 @@ hr.sep {
 ************************************/
 
 #container {
-  margin: 0;
+  margin: 0; /*0 autoがあるので不要*/
   padding: 0;
   margin: 0 auto;
 }
@@ -372,10 +398,10 @@ hr.sep {
 }*/
 
 #site-description {
-  margin-top: 0;
+  /*margin-top: 0; 後で読み込まれている(margin:0)ので不要*/
   color: #777;
   margin: 0;
-  padding: 10 0;
+  padding: 10 0; /*単位なし*/
   line-height: 140%;
   font-size: 15px;
   margin-right: 20px;
@@ -393,7 +419,7 @@ hr.sep {
 #navi ul {
   position: relative;
   clear: both;
-  margin-bottom: 0;
+  margin-bottom: 0; /*後でmargin:0が読み込まれてる*/
   border: 1px solid #ddd;
   background-color: #F7F7F7;
   border-radius: 3px;
@@ -1758,7 +1784,7 @@ div.fb-like-mobile {
   margin: 0 auto 6px auto;
   width: 62px;
   height: 31px;
-  background-color: #FFF;
+  background-color: #FFF; /*後でwhiteで上書きされている*/
   position: relative;
   border: 1px solid #BDBDBD;
   border-radius: 4px;
@@ -2013,7 +2039,7 @@ ul.snsbs li a {
 }
 ul.snsbs li a .social-count {
   font-size: 10px;
-  position: relative;
+  position: relative; /*後で上書きされている*/
   background-color: #555;
   width: auto;
   padding: 1px 3px;
@@ -2329,7 +2355,7 @@ ul.snsp li a span {
   border: 1px solid #CCCCCC;
   margin: 0;
   padding: 0;
-  position: absolute;
+  position: absolute; /*重複*/
   text-align: center;
   z-index: 99;
   margin-left: -110px;
@@ -2341,7 +2367,7 @@ ul.snsp li a span {
   display: block;
   margin: 5px;
   overflow: hidden;
-  padding: 0;
+  padding: 0; /*重複*/
   text-align: center;
   float: none;
   padding: 0;
