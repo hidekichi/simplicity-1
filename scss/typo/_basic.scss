@@ -49,3 +49,12 @@ figure {
   clear: both;
   display: block;
 }
+
+//
+//  リストスタイルのリセット
+//  ------------------------------------------
+
+ul,
+ol {
+    list-style-type: none;
+}

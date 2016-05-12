@@ -4,7 +4,7 @@
  */
 
 *:first-child + html #header > div {
-    /* IE7 */
+    //IE7
     clear: both;
     zoom: 1;
 }

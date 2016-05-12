@@ -45,4 +45,9 @@
     .sns-share-msg {
         display: none;
     }
+
+    // article内のaタグはunderlineアリにしたので、sharebarでは非表示
+    a {
+        text-decoration: none;
+    }
 }
