@@ -62,30 +62,11 @@
 .widget-over-article {
     margin-top: 10px;
     margin-bottom: 10px;
-
-    ol,
-    ul {
-        padding-left: 1em;
-        list-style: none;
-    }
 }
 
-.widget-under-article {
-    ol,
-    ul {
-        padding-left: 1em;
-        list-style: none;
-    }
-}
-
-.widget-over-sns-buttons {
-    ol,
-    ul {
-        padding-left: 1em;
-        list-style: none;
-    }
-}
-
+.widget-over-article,
+.widget-under-article,
+.widget-over-sns-buttons,
 .widget-under-sns-buttons {
     ol,
     ul {

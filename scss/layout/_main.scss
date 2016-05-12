@@ -28,6 +28,11 @@
     .post-update {
         padding-right: 0.7em;
     }
+
+    //aの元々のタグにtext-decoration: none;を入れたため追加
+    a {
+        text-decoration: underline;
+    }
 }
 
 .comment-num {

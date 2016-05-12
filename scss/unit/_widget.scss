@@ -1,5 +1,32 @@
 
 /**
+ * widget
+ */
+
+#main,
+#sidebar,
+#footer {
+	.widget {
+		//aの元々のタグにtext-decoration: none;を入れたため追加
+	    a {
+	        text-decoration: underline;
+	    }
+
+		&.widget_new_entries,
+		&.widget_new_popular,
+		&.widget_popular_ranking {
+			a {
+				text-decoration: none;
+
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+}
+
+/**
  * widget 新着記事・人気記事（new, pupular）
  */
 

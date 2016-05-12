@@ -3,13 +3,18 @@
  * アンカー
  */
 
- a {
-   color: $linkColor;
-   word-wrap: break-word;
-   &:hover {
-     color: $hoverColor;
-   }
- }
+a {
+    color: $linkColor;
+    word-wrap: break-word;
+
+    //aタグは全体的にtext-decorationをnoneとしておき、
+    //逆にunderline等が必要な場合は、その場合に追加する方が効率的かと
+    text-decoration: none;
+
+    &:hover {
+        color: $hoverColor;
+    }
+}
 
  .widget_new_entries,
  .widget_new_popular,
@@ -26,46 +31,47 @@
 	 }
  }
 
- .widget_new_entries,
- .widget_new_popular,
- .widget_popular_ranking,
- .wpp-list,
- .entry-title {
-   a {
-	   text-decoration: none;
-   }
- }
+.widget_new_entries,
+.widget_new_popular,
+.widget_popular_ranking,
+.wpp-list,
+.entry-title {
+    a {
+        text-decoration: none;
+    }
+}
 
- .article-list {
-	 color: #111;
-	 text-decoration: none;
-	 &:hover {
-		 color: $hoverColor;
-	 }
- }
+.article-list {
+    color: #111;
+    //text-decoration: none;
+
+    &:hover {
+        color: $hoverColor;
+    }
+}
 
 //.wpp-list a:hover:hover ? だったのでremove
- .widget_new_entries,
- .widget_new_popular,
- .widget_popular_ranking,
- .wpp-list {
-	 a {
-		 &:hover {
-			 text-decoration: underline;
-		 }
-	 }
- }
+.widget_new_entries,
+.widget_new_popular,
+.widget_popular_ranking,
+.wpp-list {
+    a {
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
 
- .entry,
- .related-entry-title,
- .navigation,
- #footer {
-	 a {
-		&:hover {
-			color: $hoverColor;
-		}
-	 }
- }
+.entry,
+.related-entry-title,
+.navigation,
+#footer {
+    a {
+        &:hover {
+            color: $hoverColor;
+        }
+    }
+}
 
 #footer {
 	.credit {

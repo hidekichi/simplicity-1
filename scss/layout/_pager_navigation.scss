@@ -21,8 +21,10 @@
 	.alignright {
 		text-align: right;
 
-		a:hover {
-			border-left: 1px solid #ddd;
+		a {
+			&:hover {
+				border-left: 1px solid #ddd;
+			}
 		}
 	}
 
@@ -30,6 +32,8 @@
 		display: block;
 		padding: 1em;
 		border: none;
+		//aの元々のタグにtext-decoration: none;を入れたため追加
+		text-decoration: underline;
 
 		span {
 			margin-top: -4px;
@@ -48,8 +52,8 @@
 //  ページャー、ページナビゲーション
 //  ------------------------------------------
 a.page-numbers {
-	padding: 5px 8px;
 	margin: 0 2px;
+	padding: 5px 8px;
 	background-color: #ddd;
 	border: 1px solid #ddd;
 	border-radius: 5px;
@@ -71,7 +75,7 @@ a.page-numbers {
 	a {
 		color: #000;
 		background-color: #fff;
-		text-decoration: none;
+		//text-decoration: none;
 
 		&:hover {
 			border: solid 1px #ddd;
@@ -98,7 +102,7 @@ a.page-numbers {
 	a {
 		color: #000;
 		border-bottom: none;
-		text-decoration: none;
+		//text-decoration: none;
 
 		span {
 			color: #000;

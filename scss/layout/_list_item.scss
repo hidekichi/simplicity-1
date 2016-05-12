@@ -1,5 +1,6 @@
-/*
-	リストアイテム(index.phpのリスト)
+
+/**
+ * リストアイテム(index.phpのリスト)
  */
 
 // #main か #list #listの方が良いような気も
@@ -63,7 +64,7 @@
             font-size: 24px;
             font-weight: bold;
             color: #333;
-            text-decoration: none;
+            //text-decoration: none;
         }
     }
 }

@@ -94,4 +94,12 @@
             margin: 0;
         }
     }
+
+    //
+    //  アンカー
+    //  ------------------------------------------
+    //aの元々のタグにtext-decoration: none;を入れたため追加
+    a {
+        text-decoration: underline;
+    }
 }
