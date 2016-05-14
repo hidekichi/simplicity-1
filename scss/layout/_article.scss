@@ -59,6 +59,9 @@
         border-bottom: 5px dashed #eee;
         font-size: $font-size-h4; //add
     }
+    h3,h4 {
+        padding-bottom: ( $line-height-computed / 4 ); //6.5px
+    }
     h5 {
         font-size: $font-size-h5; //add
     }

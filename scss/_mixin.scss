@@ -79,11 +79,28 @@
 //  clearfix
 //  ------------------------------------------
 @mixin clearfix() {
-    &::after {
+    // &::after {
+    //     content: "";
+    //     clear: both;
+    //     height: 0;
+    //     display: block;
+    //     visibility: hidden;
+    // }
+    &:before,
+    &:after {
         content: "";
-        clear: both;
-        height: 0;
-        display: block;
-        visibility: hidden;
+        display: table;
     }
+    &:after {
+        clear: both;
+    }
+}
+
+//
+//  cross browser opacity
+//  ------------------------------------------
+@mixin opacity($opacity) {
+  opacity: $opacity;
+  $opacity-ie: $opacity * 100;
+  filter: alpha(opacity=$opacity-ie); //IE8
 }
