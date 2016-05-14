@@ -7,10 +7,16 @@
 #main {
     .entry {
         clear: both;
-        margin-bottom: 40px;
+        //margin-bottom: 40px;
+        margin-bottom: $item-margin; //change
         // overflow: auto;
         // zoom: 1;
         word-wrap: break-word;
+
+        //最後のentryのボトムマージン除去
+        &:last-of-type {
+            margin: 0;
+        }
     }
 }
 
@@ -48,7 +54,8 @@
 
 .entry {
     .post-meta {
-        margin: 7px auto;
+        //margin: 7px auto;
+        margin: 0 auto ($line-height-computed / 2); //change
         text-align: left;
 
         a {
@@ -62,23 +69,24 @@
     h2,
     .entry-title {
         margin-top: 0;
-        margin-bottom: 5px;
+        //margin-bottom: 5px;
+        margin-bottom: ($line-height-computed / 2); //change
 
         //[1]
         // font-size: 24px;
         // font-weight: bold;
-        // color: #333;
+        color: #333;
 
         a {
-            font-size: 24px;
-            font-weight: bold;
-            color: #333;
+            //font-size: 24px;
+            //font-weight: bold;
+            //color: #333;
             //text-decoration: none;
 
             //[2]リンクカラーだけ適用させないという感じです。
             // font-size: inherit;
             // font-weight: inherit;
-            // color: inherit;
+            color: inherit;
         }
     }
 }
@@ -98,8 +106,10 @@
 // サンプル) http://codepen.io/Hidekichi/pen/KzErQX
 .entry-snippet {
     margin: 0 0 5px;
+    margin: 0 0 ($line-height-computed / 2);
     color: #555;
-    line-height: 150%;
+    //line-height: 150%;
+    line-height: $snippet-line-height;
 }
 
 .entry-read {

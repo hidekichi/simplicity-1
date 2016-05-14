@@ -11,7 +11,8 @@
     }
 
     .widget {
-        margin-bottom: 45px;
+        //margin-bottom: 45px;
+        margin-bottom: $item-margin; //change
 
         //最後のwidgetのmargin-bottomを解除
         &:last-child {

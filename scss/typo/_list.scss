@@ -3,6 +3,16 @@
  * リスト（List）
  */
 
+ ul,
+ ol {
+   margin-top: 0;
+   margin-bottom: ($line-height-computed / 2);
+   ul,
+   ol {
+     margin-bottom: 0;
+   }
+ }
+
 ol,
 ul {
     ul {
@@ -11,7 +21,9 @@ ul {
 }
 
 dl {
-    margin: 30px 0;
+    margin-top: 0; //add Remove browser default
+    //margin: 30px 0;
+    margin-bottom: $line-height-computed; //change
 }
 
 dt {
@@ -19,7 +31,8 @@ dt {
 }
 
 dd {
-    margin-bottom: 5px;
+    //margin-bottom: 5px; //mute?
+    margin-left: 0; //add Undo browser default
 }
 
 // #the-content ul li{

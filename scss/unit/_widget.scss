@@ -3,6 +3,17 @@
  * widget
  */
 
+//.article内の新着・人気等のリストはリストタイプなし
+// .article {
+// 	.widget_new_entries,
+// 	.widget_new_popular,
+// 	.widget_popular_ranking {
+// 		ul {
+// 			list-style-type: none;
+// 		}
+// 	}
+// }
+
 #main,
 #sidebar,
 #footer {
@@ -228,12 +239,17 @@ span.wpp-views {
 		.wpp-list {
 			li {
 				a {
+					display: block;
+					color: #fff;
+					//opacity:0.8;
+
 					&.wpp-post-title {
 						display: block;
 						position: absolute;
 						bottom: 0;
 						left: 0;
 						right: 0;
+						//max-height要再考
 						max-height: 28%;
 						padding: 10px;
 						overflow: hidden;
@@ -243,11 +259,6 @@ span.wpp-views {
 						// opacity:0.7;
 						// background-color:#333;
 
-						a {
-							display: block;
-							color: #fff;
-							//opacity:0.8;
-						}
 					}
 				}
 
@@ -441,5 +452,26 @@ span.wpp-views {
 				}
 			}
 		}
+	}
+}
+
+
+// wp calendar
+// ------------------------------------------
+// このウィジェットはidでprev,nextを出力するみたいてす
+// 同idをjq,js利用時は注意
+#wp-calendar {
+    width: 100%;
+    max-width: 400px;
+
+	td,
+	th {
+	    text-align: center;
+	}
+	#prev {
+		text-align: left;
+	}
+	#next {
+		text-align: right;
 	}
 }

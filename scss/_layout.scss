@@ -45,7 +45,8 @@
 
 //#body top margin
 #body {
-    margin-top: 15px;
+    //margin-top: 15px;
+    margin-top: $line-height-computed; //change
 }
 
 #main {

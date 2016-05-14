@@ -5,10 +5,33 @@
 // 基本フォントファミリー
 $simplicity_fontfamily: 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
 
+$font-size-base: 16px !default;
+
+$font-size-h1: floor(($font-size-base * 1.875)) !default; //30px
+$font-size-h2: floor(($font-size-base * 1.625)) !default;  //26px
+$font-size-h3: floor(($font-size-base * 1.4375)) !default;  //23px
+$font-size-h4: floor(($font-size-base * 1.25)) !default;  //20px
+$font-size-h5: $font-size-base !default;
+$font-size-h6: floor(($font-size-base * 0.875)) !default; //14px
+
+//行間設定
+//$line-height-base: 1.75 !default; // 28/16
+//$line-height-base: 1.6875 !default; // 27/16 - オリジナルはこのあたり
+$line-height-base: 1.625 !default; // 26/16
+// $line-height-base: 1.5625 !default; // 25/16
+// $line-height-base: 1.5 !default; // 24/16
+$line-height-computed: floor(($font-size-base * $line-height-base)) !default; //27px
+
+$headings-line-height: 1.1 !default;
+$snippet-line-height: 1.3 !default;
+
+//リストアイテム、widgetの間隔など
+$item-margin: ceil(($font-size-base * 2.5)) !default; //40px
 
 //	基本色
 $fontColor: #333;
 $backgroundColor: transparent;
+$headingColor: #333;
 
 
 //	anchor

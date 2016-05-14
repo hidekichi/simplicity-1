@@ -4,17 +4,23 @@
  */
 
 .sns-group-viral {
+    margin-bottom: 5px;
+
     .snsb {
         li {
             a {
+                position: relative;
                 // width: 150px;
                 // height: 35px;
-                @include size(150px, 35px);
-                margin-bottom: 5px;
+                @include size(150px, 46px);
+                //margin-bottom: 5px;
+                padding: 0;
                 font-size: 16px;
-                line-height: 35px;
+                line-height: 32px;
                 text-align: center;
                 border-radius: 3px;
+                span {
+                }
             }
         }
     }
@@ -32,7 +38,8 @@
         }
     }
 
-    .social-icon {
+    .social-icon,
+    .fa-comment {
         &:after {
             position: relative;
             top: -2px;
@@ -41,9 +48,9 @@
         }
     }
 
-    .fa-comment:after {
-        top: 0;
-    }
+    // .fa-comment:after {
+    //     top: 0;
+    // }
 
     .icon-twitter:after {
         content: 'Twitter';

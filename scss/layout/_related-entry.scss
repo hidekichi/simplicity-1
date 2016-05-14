@@ -4,10 +4,11 @@
  */
 
 .related-entry {
-	margin-bottom: 20px;
+	//margin-bottom: 20px;
+	margin-bottom: $line-height-computed;
 	margin-right: 10px;
-	line-height: 150%;
-	clear: both;
+	//line-height: 150%; //mute
+	//clear: both; //mute
 	// overflow: auto;
 	// zoom: 1;
 
@@ -18,21 +19,21 @@
 
 .related-entry-thumb {
 	float: left;
-	margin-top: 3px;
-	margin-bottom: 5px;
-	padding-bottom: 5px;
+	// margin-top: 3px; // mute?
+	// margin-bottom: 5px; //mute?
+	// padding-bottom: 5px; //mute?
 
 	a {
 		display: block;
 	}
 
 	img {
+		display: block;
 		border: 0;
 		// width: 100px;
 		// height: 100px;
 		@include square(100px);
 		//  margin-bottom: 20px;
-		display: block;
 	}
 }
 
@@ -41,19 +42,24 @@
 }
 
 .related-entry-title {
-	margin-bottom: 5px;
+	//margin-bottom: 5px;
+	margin-top: 0; //add
+	margin-bottom: ($line-height-computed / 3); //change
 
 	a {
-		font-size: 18px;
-		font-weight: bold;
+		//font-size: 18px;
+		//font-weight: bold;
 		color: #333;
 		//text-decoration: none;
 	}
 }
 
 .related-entry-snippet {
-	margin: 0 0 5px;
+	//margin: 0 0 5px;
+	margin: 0; //add
+	margin-bottom: ($line-height-computed / 2); //change
 	color: #555;
+	line-height: $snippet-line-height; //add
 }
 
 .related-entry-read {

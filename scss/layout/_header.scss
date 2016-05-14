@@ -11,6 +11,7 @@
 
 #header {
     margin-bottom: 0;
+
     .alignleft,
     .alignright {
         margin-bottom: 0;
@@ -19,12 +20,16 @@
     .alignleft {
         margin-left: 30px;
         margin-right: 30px;
+        //フォローボタンに重ならないように700〜800pxで
+        //max-widthはあってよいかと思う。
+        //こここそflexが有効な所です
         //max-width:700px;
     }
     .alignright {
         position: absolute;
+        //top: 0;
+        top: ($line-height-computed / 2); //change
         right: 0;
-        top: 0;
         height: 52px;
         text-align: right;
         margin-right: 30px;
@@ -40,15 +45,21 @@
 }
 
 #site-title {
-    margin-top: 16px;
-    margin-bottom: 10px;
-    font-size: 30px;
-    line-height: 100%;
+    // margin-top: 16px;
+    margin-top: ($line-height-computed / 2); //change
+    // margin-bottom: 10px;
+    margin-bottom: ($line-height-computed / 3); //change
+    //font-size: 30px;
+    font-size: $font-size-h1; //change
+    //line-height: 100%;
+    //100%だと折り返しで文字がくっつくため
+    line-height: $headings-line-height; //change
+    font-weight: normal; //change
     a {
         //text-decoration: none;
         color: #222;
-        font-size: 30px;
-        font-weight: normal;
+        //font-size: 30px;
+        //font-weight: normal;
     }
 }
 
@@ -56,12 +67,15 @@
     margin: 0;
     //margin-top: 0; //margin:0があるのでcomment out
     margin-right: 20px;
-    margin-bottom: 10px;
-    padding: 10 0;
-    font-size: 15px;
+    //margin-bottom: 10px;
+    margin-bottom:$line-height-computed; //change
+    padding: 10 0; //?
+    //font-size: 15px;
+    font-size: $font-size-h6; //change
     font-weight: normal;
     color: #777;
-    line-height: 140%;
+    //line-height: 140%;
+    line-height: $headings-line-height; //change
 }
 
 #header-image {

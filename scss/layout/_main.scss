@@ -6,7 +6,8 @@
 #main {
     .page,
     .post {
-        margin-bottom: 59px;
+        //margin-bottom: 59px;
+        margin-bottom: ($item-margin * 1.5); //change 60px
     }
 }
 
@@ -15,8 +16,10 @@
 }
 
 .post-meta {
-    margin-bottom: 0.5em;
-    font-size: 16px;
+    //margin-bottom: 0.5em;
+    margin: 0; //add p要素のため
+    margin-bottom: ( $line-height-computed / 2); //change
+    //font-size: 16px; //mute
     color: #555;
     text-align: right;
     background-color: #F7F7F7;
@@ -40,7 +43,7 @@
 }
 
 .footer-post-meta {
-    font-size: 16px;
+    //font-size: 16px; //mute
     color: #555;
     text-align: right;
     clear: both;
@@ -52,14 +55,18 @@
     }
 }
 
-.article-list .footer-post-meta {
-    margin-top: 30px;
+.article-list {
+    .footer-post-meta {
+        margin-top: 30px;
+    }
 }
 
 .more-link {
     display: block;
-    margin-top: 15px;
-    margin-bottom: 30px;
+    //margin-top: 15px;
+    margin-top: ( $line-height-computed /2 ); //change
+    // margin-bottom: 30px;
+    margin-bottom: $line-height-computed; //change
     text-align: right;
     clear: both;
 }

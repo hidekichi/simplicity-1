@@ -9,7 +9,8 @@
     min-width: 300px;
     max-width: 100%;
     min-height: 155px;
-    margin: 20px 0;
+    //margin: 20px 0;
+    margin: ($item-margin / 2) 0; //change
     //box-sizing: border-box;
     @include clearfix;
 
@@ -48,14 +49,19 @@ img.blog-card-thumb-image {
 
 .blog-card-content {
     margin-left: 110px;
-    line-height: 120%;
+    //line-height: 120%; //mute
 }
 
+//このタイトルはdivで書いてあるが、
+//ex) <div class="blog-card-title h5">
+//とすることでh5のサイズ(16px)とfont-weight: boldを自動で
+//入れることができる
 .blog-card-title {
-    margin-bottom: 5px;
+    //margin-bottom: 5px;
+    margin-bottom: ($line-height-computed / 2); //change
+    font-weight: bold; // position change from a
 
     a {
-        font-weight: bold;
         color: #111;
         //text-decoration: none;
     }
@@ -63,15 +69,20 @@ img.blog-card-thumb-image {
 
 .blog-card-excerpt {
     color: #333;
-    font-size: 90%;
+    //font-size: 90%;
+    font-size: ($font-size-base * 0.9);
+    line-height: $snippet-line-height; //add やや広い
 }
 
 .blog-card-footer {
     margin-top: 5px;
     margin-bottom: 3px;
-    font-size: 0.7em;
+    //font-size: 0.7em;
+    font-size: ( $font-size-base * 0.7 ); //change
     color: #777;
     clear: both;
+
+    @include clearfix;
 }
 
 .blog-card-hatebu {
@@ -91,7 +102,7 @@ img.blog-card-thumb-image {
 
     a {
         position: relative;
-        top: -3px;
+        top: -3px; //mute
         color: #777;
         //text-decoration: none;
     }

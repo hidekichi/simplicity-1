@@ -9,13 +9,21 @@
 }
 
 .sns-share-msg {
-    margin-bottom: -20px;
+    //margin-bottom: -20px;
+    margin-bottom: 0;
     font-size: medium;
 }
 
 #header {
     .sns-follow-msg {
         display: none;
+    }
+}
+
+//タイトルと上位置をあわせるため
+#header {
+    .snsp {
+        margin: 0 0 15px;
     }
 }
 
