@@ -18,7 +18,8 @@
         border: 0;
     }
 
-    //#the-content内のaはunderlineありにしたのでblog-cardでは取る
+    //#the-content内のaはunderline「あり」にしたので
+    //blog-cardでは取る
     a {
         text-decoration: none;
     }
@@ -52,7 +53,7 @@ img.blog-card-thumb-image {
     //line-height: 120%; //mute
 }
 
-//このタイトルはdivで書いてあるが、
+//このブログカードのタイトルはhtml側でdivで書いてあるが、
 //ex) <div class="blog-card-title h5">
 //とすることでh5のサイズ(16px)とfont-weight: boldを自動で
 //入れることができる

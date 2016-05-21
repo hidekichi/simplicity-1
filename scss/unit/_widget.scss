@@ -475,3 +475,28 @@ span.wpp-views {
 		text-align: right;
 	}
 }
+
+// 最近のコメントのウィジェットスタイル
+// ------------------------------------------
+.recent-comments {
+	width: 100%;
+	margin: 20px auto;
+	dt {
+		width: 46px;
+		margin-top: 3px;
+		text-align: left;
+		clear: left;
+		float: left;
+		white-space: nowrap;
+	}
+	dd {
+		margin-left: 0;
+		margin-bottom: 20px;
+		.recent-comment-author {
+			font-weight: bold;
+		}
+		.recent-comment-content {
+			font-size: 14px;
+		}
+	}
+}

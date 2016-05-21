@@ -95,7 +95,8 @@
 //.entry .entry-titleでアクセスできますが、.entryと範囲が限定されているので、
 //ここは.titleだけもokかと思います。
 //ex).entry .title でアクセスできるような感じです。
-//.entry-title {}
+
+//.entry-title {} //中身なし
 
 //ここ以下も、例えば.entry .snippetとしてアクセスした方が良い場合があります。
 //blog-cardのsnippetと、仕様を共通化するなどですね
@@ -105,11 +106,11 @@
 //結果的にどうなるかというと、変更したい部分の記述が少なくなる可能性が高いです。
 // サンプル) http://codepen.io/Hidekichi/pen/KzErQX
 .entry-snippet {
-    margin: 0 0 5px;
-    margin: 0 0 ($line-height-computed / 2);
+    // margin: 0 0 5px;
+    margin: 0 0 ($line-height-computed / 2); //chande
     color: #555;
     //line-height: 150%;
-    line-height: $snippet-line-height;
+    line-height: $snippet-line-height; //chande
 }
 
 .entry-read {

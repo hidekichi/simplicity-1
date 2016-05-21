@@ -16,10 +16,10 @@
         //text-decoration: none;
 
         &.twitter-arrow-box-link {
-            .fa-comments {
-                font-size: 13px;
-                color: #aaa;
-            }
+            // .fa-comments {
+            //     font-size: 13px;
+            //     color: #aaa;
+            // }
         }
     }
 }
@@ -44,7 +44,7 @@ a {
     &.balloon-btn-link {
         display: block;
         position: relative;
-        top: 4px;
+        top: 4px; //バルーンの位置決めのため必要
         // width: 58px;
         // height: 20px;
         @include size(58px,20px);
@@ -53,6 +53,14 @@ a {
         line-height: 22px;
         border: 1px solid #ddd;
         border-radius: 3px;
+
+        //縦センターに寄せるため追記
+        span {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate3d(-50%,-50%,0);
+        }
 
         &:hover {
             opacity: 0.7;

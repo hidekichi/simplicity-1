@@ -138,14 +138,15 @@
     //margin-bottom: 60px;
     margin-bottom: $item-margin; //change 40pxへ
 
-    //リストスタイルをデフォルトでnoneにしたので必要なところには下記のようにして表示
-    ul {
-        list-style-type: circle;
-    }
-    ol {
-        list-style-type: decimal;
-    }
 
+    //  リストスタイルをオープンでnoneにしているので
+    //  それを部分的に修復させる
+    ul,ol {
+        li {
+            display: list-item;
+            list-style: unset;
+        }
+    }
     p {
         margin: 0 0 ($line-height-computed / 1.5);
     }

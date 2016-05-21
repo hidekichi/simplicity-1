@@ -65,6 +65,9 @@
 //  size - bootstrap-mixins
 //  自動でwidthとheightを入れるmixin
 //  squareはひとつの値でwidthとheightを入れる
+//
+//  このmixinは実はこれだけでスクエアに対応することもできる
+//   @mixin size($width, $height:$width)こんな感じ
 //  ------------------------------------------
 @mixin size($width, $height) {
   width: $width;
@@ -103,4 +106,12 @@
   opacity: $opacity;
   $opacity-ie: $opacity * 100;
   filter: alpha(opacity=$opacity-ie); //IE8
+}
+
+//
+//  unstyle list
+//  ------------------------------------------
+@mixin list-unstyled {
+  padding-left: 0;
+  list-style: none;
 }
