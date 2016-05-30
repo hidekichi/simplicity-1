@@ -1600,21 +1600,28 @@ span.wpp-views {
 #wp-calendar #next {
   text-align: right;
 }
+.recent-comment-title {
+  display: inline-block;
+  margin-bottom: 6.5px;
+}
 .recent-comments {
   width: 100%;
   margin: 20px auto;
 }
 .recent-comments dt {
   width: 46px;
-  margin-top: 3px;
   text-align: left;
   clear: left;
   float: left;
   white-space: nowrap;
 }
+.recent-comments dt img {
+  width: auto;
+  height: 2.5em;
+}
 .recent-comments dd {
   margin-left: 0;
-  margin-bottom: 20px;
+  margin-bottom: 13px;
 }
 .recent-comments dd .recent-comment-author {
   font-weight: bold;

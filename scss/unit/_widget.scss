@@ -479,20 +479,29 @@ span.wpp-views {
 
 // 最近のコメントのウィジェットスタイル
 // ------------------------------------------
+.recent-comment-title {
+    display: inline-block; //add
+	margin-bottom: $line-height-computed /4;
+}
 .recent-comments {
 	width: 100%;
 	margin: 20px auto;
 	dt {
 		width: 46px;
-		margin-top: 3px;
+		//margin-top: 3px; //mute
 		text-align: left;
 		clear: left;
 		float: left;
 		white-space: nowrap;
+
+		img {
+			@include size(auto, 2.5em); //add
+		}
 	}
 	dd {
 		margin-left: 0;
-		margin-bottom: 20px;
+		//margin-bottom: 20px;
+		margin-bottom: $line-height-computed /2;
 		.recent-comment-author {
 			font-weight: bold;
 		}
