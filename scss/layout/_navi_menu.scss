@@ -1,3 +1,4 @@
+@charset "UTF-8";
 
 /**
  * グローバルナビメニュー（menu）
@@ -39,6 +40,12 @@
                     background-color: #ddd;
                 }
             }
+
+            &:hover {
+                > ul {
+                    display: block;
+                }
+            }
         }
 
         &.children,
@@ -52,24 +59,14 @@
             //list-style: none;
             z-index: 99;
 
-            ul {
+            li {
                 position: relative;
-                top: -31px;
-                left: 200px;
-
-                li {
-                    position: relative;
-                    height: 31px;
-                    border: none;
-                    float: none;
-
-                    &:hover {
-                        > ul {
-                            display: block;
-                        }
-                    }
-                }
+                //height: 31px;
+                height: 100%; //change
+                border: none;
+                float: none;
             }
+
         }
     }
 }

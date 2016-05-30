@@ -66,6 +66,9 @@ add_theme_support( 'custom-header', $custom_header_defaults );
 
 //テキストウィジェットでショートコードを使用する
 add_filter('widget_text', 'do_shortcode');
+add_filter('widget_text_pc_text', 'do_shortcode');
+add_filter('widget_text_mobile_text', 'do_shortcode');
+
 
 //カスタム背景
 $custom_background_defaults = array(
@@ -76,6 +79,9 @@ add_theme_support( 'custom-background', $custom_background_defaults );
 //ヘッダーに以下のようなタグが挿入されるWP4.4からの機能を解除
 //<link rel='https://api.w.org/' href='http:/xxxx/wordpress/wp-json/' />
 remove_action( 'wp_head', 'rest_output_link_wp_head' );
+
+// // Webサイト全体の画像をResponsive images機能の対象から外す
+// add_filter( 'wp_calculate_image_srcset', '__return_false' );
 
 // //カスタマイズした値をCSSに反映させる
 // function simplicity_customize_css(){
@@ -843,6 +849,8 @@ function simplicity_html5_fix($the_content){
 endif;
 add_filter('the_content', 'simplicity_html5_fix');
 add_filter('widget_text', 'simplicity_html5_fix');
+add_filter('widget_text_pc_text', 'simplicity_html5_fix');
+add_filter('widget_text_mobile_text', 'simplicity_html5_fix');
 
 //現在のカテゴリをカンマ区切りテキストで取得する
 if ( !function_exists( 'get_category_ids' ) ):
