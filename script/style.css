@@ -1,0 +1,160 @@
+#b-history {
+  position: relative;
+  z-index: 100;
+}
+#b-history::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 1.5em;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 4px;
+  height: calc(100% - 3.5em);
+  background-color: #333;
+}
+#b-history ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  z-index: 200;
+}
+#b-history ul li {
+  position: relative;
+}
+#b-history ul li::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 1.5em;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 2em;
+  height: 2em;
+  background-color: #333;
+  border-radius: 50%;
+}
+#b-history ul li:first-child::after {
+  content: "New";
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 1.5em;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 13px;
+  width: 1.25em;
+}
+#b-history ul li:last-child::after {
+  content: "Old";
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 1.5em;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 13px;
+  width: 1em;
+}
+#b-history ul a {
+  text-decoration: none !important;
+  color: #inherit;
+}
+#b-history ul .wrapper {
+  margin: 10px 0 10px 3em;
+  color: #333;
+}
+#b-history ul .wrapper::before, #b-history ul .wrapper::after {
+  content: "";
+  display: table;
+}
+#b-history ul .wrapper::after {
+  clear: both;
+}
+#b-history ul .wrapper:last-child {
+  margin-bottom: 0;
+}
+#b-history ul .wrapper .thumb {
+  width: 3em;
+  height: auto;
+  float: left;
+  margin-right: 5px;
+}
+#b-history ul .wrapper .thumb img {
+  width: 100%;
+  height: auto;
+}
+#b-history ul .wrapper .title {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.1;
+}
+#b-history ul .wrapper .times {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: baseline;
+  -webkit-align-items: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  width: 100%;
+}
+#b-history ul .wrapper .times .date {
+  font-size: 12px;
+  color: #999;
+  float: left;
+}
+#b-history ul .wrapper .times .date::before {
+  content: "記事投稿日:";
+  margin-right: 3px;
+  color: #aaa;
+}
+#b-history ul .wrapper .times .recTime {
+  padding-left: 3px;
+  background-color: #333;
+  color: #fff;
+  font-size: 11px;
+  margin-left: auto;
+}
+#b-history ul .wrapper .times .recTime .rec {
+  position: relative;
+  display: inline-block;
+  padding: 0 2px;
+  background-color: #b32000;
+  width: 2.5em;
+  margin-left: 2px;
+  text-align: center;
+  box-shadow: 0 0 2px #c6cb08 inset;
+  text-shadow: 0 0 1px #111, 0 0 2px #001;
+}
+
+#b-history + .clearStorage {
+  margin: 0 auto;
+  padding: 6px 10px;
+  width: 160px;
+  font-size: 14px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 0px 0px 6px #666;
+  -webkit-transition: .2s ease;
+  transition: .2s ease;
+}
+#b-history + .clearStorage.del {
+  -webkit-transform: scaleX(0.1);
+          transform: scaleX(0.1);
+}
+#b-history + .clearStorage.del2 {
+  -webkit-transform: scaleY(0);
+          transform: scaleY(0);
+}
