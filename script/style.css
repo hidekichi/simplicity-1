@@ -59,7 +59,7 @@
 }
 #b-history ul a {
   text-decoration: none !important;
-  color: #inherit;
+  color: inherit;
 }
 #b-history ul .wrapper {
   margin: 10px 0 10px 3em;
@@ -140,7 +140,7 @@
 #b-history + .clearStorage {
   margin: 0 auto;
   padding: 6px 10px;
-  width: 160px;
+  width: 200px;
   font-size: 14px;
   background-color: #333;
   color: #fff;
