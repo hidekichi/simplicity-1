@@ -138,7 +138,7 @@
 }
 
 #b-history + .clearStorage {
-  margin: 0 auto;
+  margin: 10px auto 0;
   padding: 6px 10px;
   width: 200px;
   font-size: 14px;
