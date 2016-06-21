@@ -107,10 +107,10 @@
 	};
 
 	var getLocalStorage = function() {
-		if (localStorage.getItem('access_data')) {
-		//if (sessionStorage.getItem('access_data')) {
-			var json = JSON.parse(localStorage.getItem('access_data'));
-			//var json = JSON.parse(sessionStorage.getItem('access_data'));
+		if (sessionStorage.getItem('access_data')) {
+		//if (localStorage.getItem('access_data')) {
+			var json = JSON.parse(sessionStorage.getItem('access_data'));
+			//var json = JSON.parse(localStorage.getItem('access_data'));
 
 			return json;
 		}
